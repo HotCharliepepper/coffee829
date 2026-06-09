@@ -486,6 +486,12 @@ details.fold .fold-body>*:first-child{margin-top:0;}
 .evid-card figcaption b{display:block;color:#fff;font-family:var(--serif);font-size:13.5px;font-weight:500;}
 .evid-card figcaption span{display:block;margin-top:2px;color:var(--gold2);font-size:11px;letter-spacing:.02em;}
 @media(max-width:430px){.diff4{grid-template-columns:1fr;}}
+
+/* ===== final typography pass: orphan control ===== */
+h1,h2,h3,.dir-emph{text-wrap:pretty;}
+.wrap p,.wrap li,.wrap b,.wrap span,.wrap figcaption,
+.ch-sum,.chap-recap,.gap-close,.diff-foot,.name-callout,.cmp-foot,.compare-cap,
+.surface-note,.name-note,.s3-note,.fresh-tagline,.compare-note{text-wrap:pretty;}
 </style>
 </head>
 <body>
@@ -494,7 +500,7 @@ details.fold .fold-body>*:first-child{margin-top:0;}
 <section class="hero" id="top">
   <div class="wrap">
     <div class="brandline reveal in">COFFEE829 · Brand Diagnosis</div>
-    <h1 class="reveal in d1">829는 숫자가 아니라<br>시작일입니다.<br><span>이제, 브랜드로 읽힐 차례입니다.</span></h1>
+    <h1 class="reveal in d1">829는 숫자가 아니라<br>시작일입니다.<br><span>이제, 브랜드로 읽힐&nbsp;차례입니다.</span></h1>
     <p class="sub reveal in d2">2012년 8월 29일, 교대에서 시작한 이름.<br>그 시간과 로스팅 기준이 첫 화면에서 그대로 읽히게 만드는 작업입니다.</p>
     <div class="tags reveal in d3">
       <span class="tag">2012.08.29 시작</span><span class="tag">15년 운영</span><span class="tag">3개 직영점</span><span class="tag">대표 직접 로스팅</span><span class="tag">서초점 확장</span>
