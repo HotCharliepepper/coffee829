@@ -3,1265 +3,1185 @@
 <head>
 <meta charset="UTF-8" />
 <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-<title>COFFEE829 · 829 네이밍·첫 화면·AI 검색 인식 진단</title>
-<meta name="description" content="829라는 이름에 담긴 시작일과 15년 신뢰를 네이버플레이스, 첫 화면, AI 검색 인식까지 이어지게 만드는 COFFEE829 진단서." />
-<meta property="og:type" content="website" />
-<meta property="og:title" content="COFFEE829 · 첫 화면과 AI 검색 인식 진단" />
-<meta property="og:description" content="상위노출보다 먼저, 829라는 이름이 사람과 AI에게 어떤 브랜드로 읽히는지부터 봅니다." />
-<meta property="og:image" content="assets/coffee829-hero.jpg" />
+<title>COFFEE829 서초점 — 브랜드 기준점 진단 | Weplace</title>
+<meta name="description" content="커피829는 새로 만들 브랜드가 아니라 이미 검증된 브랜드입니다. 15년의 시간과 기준이 서초점과 3개 직영의 첫 화면에서도 한 번에 읽히도록, 표면과 구조를 정리합니다." />
+<meta name="theme-color" content="#15100B" />
 
-<link rel="preconnect" href="https://fonts.googleapis.com">
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,500;0,600;1,500;1,600&family=Noto+Serif+KR:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+<!-- Open Graph (KakaoTalk 공유용) -->
+<meta property="og:type" content="website" />
+<meta property="og:title" content="COFFEE829 서초점 — 브랜드 기준점 진단" />
+<meta property="og:description" content="829는 숫자가 아니라 시작일입니다. 서초점은 커피829가 앞으로 어떤 브랜드로 읽힐지 보여주는 기준점입니다." />
+<meta property="og:image" content="coffee829hero.jpg" />
+
+<!-- Fonts -->
+<link rel="preconnect" href="https://fonts.googleapis.com" />
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+<link href="https://fonts.googleapis.com/css2?family=Noto+Serif+KR:wght@300;400;500;600;700&family=Cormorant+Garamond:ital,wght@0,500;0,600;1,400;1,500&display=swap" rel="stylesheet" />
 <link rel="stylesheet" as="style" crossorigin href="https://cdn.jsdelivr.net/gh/orioncactus/pretendard@v1.3.9/dist/web/static/pretendard.min.css" />
 
 <style>
-:root{
-  --bg:#0A0806;
-  --bg2:#130F0B;
-  --panel:#1A140F;
-  --panel2:#211810;
-  --paper:#F4EBDD;
-  --paper2:#FFF7EA;
-  --text:#F3E8D8;
-  --text2:#CDBCA6;
-  --muted:#9A8770;
-  --line:rgba(221,184,124,.16);
-  --line2:rgba(221,184,124,.28);
-  --gold:#C99A4A;
-  --gold2:#E7C075;
-  --brown:#7B4E2D;
-  --espresso:#2A160D;
-  --maxw:600px;
-  --serif:'Noto Serif KR',serif;
-  --eng:'Cormorant Garamond',serif;
-  --sans:'Pretendard',-apple-system,BlinkMacSystemFont,system-ui,sans-serif;
-  --ease:cubic-bezier(.22,.61,.36,1);
-}
-*{box-sizing:border-box;margin:0;padding:0;}
-html{scroll-behavior:smooth;-webkit-text-size-adjust:100%;}
-body{
-  font-family:var(--sans);
-  background:var(--bg);
-  color:var(--text);
-  line-height:1.78;
-  letter-spacing:-.012em;
-  word-break:keep-all;
-  overflow-x:hidden;
-  -webkit-font-smoothing:antialiased;
-}
-body::before{
-  content:"";position:fixed;inset:0;z-index:0;pointer-events:none;
-  background:
-    radial-gradient(900px 620px at 105% -5%, rgba(201,154,74,.14), transparent 55%),
-    radial-gradient(760px 520px at -10% 38%, rgba(123,78,45,.18), transparent 54%),
-    radial-gradient(900px 760px at 90% 110%, rgba(201,154,74,.08), transparent 60%);
-}
-body::after{
-  content:"";position:fixed;inset:0;z-index:0;pointer-events:none;opacity:.035;
-  background-image:url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='180' height='180'%3E%3Cfilter id='n'%3E%3CfeTurbulence type='fractalNoise' baseFrequency='.75' numOctaves='2' stitchTiles='stitch'/%3E%3C/filter%3E%3Crect width='100%25' height='100%25' filter='url(%23n)'/%3E%3C/svg%3E");
-}
-.wrap{position:relative;z-index:2;max-width:var(--maxw);margin:0 auto;padding:0 24px;}
-section{position:relative;z-index:1;}
-.block{padding:86px 0;}
-.hr{height:1px;background:linear-gradient(90deg,transparent,var(--line2),transparent);max-width:var(--maxw);margin:0 auto;}
-.kicker{display:flex;align-items:center;gap:12px;margin-bottom:22px;font-size:11px;font-weight:700;letter-spacing:.28em;text-transform:uppercase;color:var(--gold2);}
-.kicker::before{content:"";width:28px;height:1px;background:var(--gold);opacity:.8;}
-h1,h2,h3{font-family:var(--serif);font-weight:500;letter-spacing:-.025em;line-height:1.42;text-wrap:balance;}
-h2{font-size:clamp(25px,6vw,34px);}
-h3{font-size:18px;}
-p,.note,.lead,.desc,.mini,.bodycopy{text-wrap:pretty;}
-.note{font-size:15px;color:var(--text2);font-weight:300;line-height:1.88;}
-.lead{font-size:17px;color:var(--text);font-family:var(--serif);font-weight:300;line-height:1.95;}
-.mini{font-size:12.5px;color:var(--muted);line-height:1.62;}
-.gold{color:var(--gold2);}
-.dim{color:var(--text2);}
-.serif{font-family:var(--serif);}
-.eng{font-family:var(--eng);}
+  :root{
+    /* dark espresso base */
+    --espresso:#15100B;
+    --espresso-2:#1B140D;
+    --char:#241B12;        /* charcoal-brown surface */
+    --char-2:#2C2118;
 
-/* animation */
-.reveal{opacity:0;transform:translateY(18px);transition:opacity .85s var(--ease),transform .85s var(--ease);}
-.reveal.in{opacity:1;transform:none;}
-.d1{transition-delay:.08s}.d2{transition-delay:.16s}.d3{transition-delay:.24s}
-@media (prefers-reduced-motion:reduce){.reveal{opacity:1;transform:none;transition:none;}}
+    --line:rgba(214,196,168,.10);
+    --line-2:rgba(214,196,168,.18);
 
+    /* warm ivory ink */
+    --ivory:#ECE4D5;
+    --ivory-dim:#B7AB97;
+    --muted:#8B7E6B;
 
-/* quick guide */
-.guide{padding:58px 0 72px;background:linear-gradient(180deg,rgba(39,24,13,.45),rgba(10,8,6,.08));}
-.guide-card{border:1px solid var(--line2);background:linear-gradient(160deg,rgba(39,26,16,.96),rgba(12,9,7,.96));border-radius:22px;padding:26px 22px;box-shadow:0 28px 70px -48px #000;}
-.guide-card h2{font-size:clamp(24px,6vw,32px);}
-.guide-card .guide-lead{margin-top:16px;color:var(--text2);font-size:15px;line-height:1.85;font-weight:300;}
-.guide-list{display:grid;gap:10px;margin-top:24px;counter-reset:guide;}
-.guide-item{counter-increment:guide;border:1px solid var(--line);background:rgba(255,255,255,.035);border-radius:16px;padding:16px 16px 16px 58px;position:relative;}
-.guide-item::before{content:counter(guide);position:absolute;left:16px;top:16px;width:30px;height:30px;border-radius:10px;display:grid;place-items:center;background:rgba(201,154,74,.14);border:1px solid var(--line2);font-family:var(--eng);font-size:18px;color:var(--gold2);}
-.guide-item b{display:block;color:var(--text);font-size:14.5px;}
-.guide-item span{display:block;margin-top:4px;color:var(--muted);font-size:12.8px;line-height:1.55;}
-.guide-note{margin-top:20px;border-left:2px solid var(--gold);padding-left:15px;color:var(--text2);font-size:14px;line-height:1.78;}
-.guide-links{display:flex;gap:8px;flex-wrap:wrap;margin-top:22px;}
-.guide-links a{display:inline-flex;text-decoration:none;border:1px solid var(--line2);border-radius:999px;padding:9px 13px;color:var(--gold2);background:rgba(255,255,255,.035);font-size:12px;font-weight:750;}
+    /* muted brass / gold */
+    --brass:#B68A4E;
+    --brass-hi:#D6AE6E;
+    --brass-deep:#8C6A38;
 
-/* custom work */
-.workgrid{display:grid;gap:14px;margin-top:30px;}
-.workcard{border:1px solid var(--line);background:linear-gradient(160deg,rgba(38,25,15,.94),rgba(13,10,8,.96));border-radius:18px;padding:22px 20px;position:relative;overflow:hidden;}
-.workcard::after{content:"";position:absolute;right:-40px;top:-40px;width:120px;height:120px;border-radius:999px;background:radial-gradient(circle,rgba(201,154,74,.12),transparent 62%);pointer-events:none;}
-.workcard .wk{font-family:var(--eng);font-style:italic;color:var(--gold2);font-size:19px;}
-.workcard .wt{margin-top:8px;font-family:var(--serif);font-size:18px;color:var(--text);}
-.workcard .wd{margin-top:8px;color:var(--text2);font-size:13.6px;line-height:1.7;}
-.workcard .result{margin-top:13px;padding-top:12px;border-top:1px dashed var(--line2);color:var(--gold2);font-size:12.5px;line-height:1.62;}
+    /* muted blue — 현 파란 간판 연결 */
+    --blue:#86A0C2;
+    --blue-soft:rgba(134,160,194,.14);
+    --blue-line:rgba(134,160,194,.42);
 
-/* emotional close */
-.emotional-close{padding:98px 0;background:linear-gradient(180deg,rgba(10,8,6,.08),rgba(43,25,12,.68));text-align:center;}
-.emotional-close .close-card{border:1px solid var(--line2);background:linear-gradient(165deg,rgba(40,26,16,.88),rgba(13,9,6,.96));border-radius:24px;padding:34px 24px;box-shadow:0 34px 80px -54px #000;}
-.emotional-close h2{font-size:clamp(26px,7vw,38px);font-weight:400;}
-.emotional-close p{margin:22px auto 0;max-width:450px;color:var(--text2);font-size:15.5px;line-height:2;font-weight:300;}
-.emotional-close .lastline{margin-top:26px;color:var(--gold2);font-family:var(--serif);font-size:17px;line-height:1.75;}
+    /* cream card — Stitch 압축 모듈 */
+    --cream:#F2ECDF;
+    --cream-2:#E9E0CE;
+    --cream-ink:#312619;
+    --cream-ink-soft:#6A5B47;
+    --cream-line:#DACDB6;
 
-/* hero */
-.hero{
-  min-height:100svh;
-  display:flex;align-items:center;
-  padding:86px 0 70px;
-  background:
-    linear-gradient(90deg,rgba(10,8,6,.88) 0%,rgba(10,8,6,.66) 50%,rgba(10,8,6,.96) 100%),
-    linear-gradient(180deg,rgba(10,8,6,.08),rgba(10,8,6,.98) 92%),
-    url('assets/coffee829-hero.jpg') center/cover no-repeat;
-  overflow:hidden;
-}
-.hero::after{content:"";position:absolute;left:0;right:0;bottom:0;height:1px;background:linear-gradient(90deg,transparent,var(--gold),transparent);opacity:.5;}
-.brandline{font-size:12px;letter-spacing:.44em;text-transform:uppercase;color:var(--gold2);font-weight:700;margin-bottom:42px;}
-.hero h1{font-size:clamp(38px,10vw,56px);font-weight:400;line-height:1.22;}
-.hero h1 span{color:var(--text2);font-weight:300;}
-.hero .sub{margin-top:26px;max-width:470px;font-size:16px;color:var(--text2);font-weight:300;line-height:1.9;}
-.tags{display:flex;gap:8px;flex-wrap:wrap;margin-top:34px;}
-.tag{border:1px solid var(--line2);background:rgba(28,18,10,.58);color:var(--gold2);border-radius:999px;padding:7px 12px;font-size:11.5px;letter-spacing:.02em;}
-.hero-cta{margin-top:42px;display:flex;align-items:center;gap:12px;flex-wrap:wrap;}
-.btn{display:inline-flex;align-items:center;justify-content:center;gap:9px;border:1px solid var(--gold);background:linear-gradient(90deg,#A66F2E,#E2B766);color:#130D08;text-decoration:none;font-weight:800;border-radius:999px;padding:14px 22px;font-size:14px;letter-spacing:-.01em;box-shadow:0 18px 40px -22px rgba(231,192,117,.9);cursor:pointer;}
-.btn.ghost{background:rgba(255,255,255,.04);color:var(--gold2);box-shadow:none;border-color:var(--line2);}
-.scrollcue{margin-top:54px;display:flex;align-items:center;gap:10px;color:var(--muted);font-size:10px;letter-spacing:.32em;text-transform:uppercase;}
-.scrollcue i{width:1px;height:34px;background:linear-gradient(var(--gold),transparent);display:block;}
+    --serif:'Noto Serif KR', serif;
+    --eng:'Cormorant Garamond', 'Noto Serif KR', serif;
+    --sans:'Pretendard', -apple-system, BlinkMacSystemFont, system-ui, sans-serif;
 
-/* image break */
-.imgbreak{min-height:360px;background:center/cover no-repeat;position:relative;border-top:1px solid var(--line);border-bottom:1px solid var(--line);}
-.imgbreak::before{content:"";position:absolute;inset:0;background:linear-gradient(90deg,rgba(10,8,6,.72),rgba(10,8,6,.28),rgba(10,8,6,.86));}
-.imgbreak .caption{position:relative;z-index:1;max-width:var(--maxw);margin:0 auto;padding:96px 24px;color:var(--text);}
-.imgbreak h2{font-size:clamp(26px,7vw,40px);font-weight:400;}
-.imgbreak p{margin-top:18px;max-width:390px;color:var(--text2);font-size:15px;}
-.seocho{background-image:url('assets/coffee829-seocho.jpg');}
-.roasting{background-image:url('assets/coffee829-roasting.jpg');}
-.diagnostic{background-image:url('assets/coffee829-diagnostic.jpg');}
+    --maxw:600px;
+    --pad:24px;
+    --r:16px;
+    --ease:cubic-bezier(.22,.61,.36,1);
+  }
 
-/* cards */
-.card{border:1px solid var(--line);background:linear-gradient(160deg,rgba(36,25,16,.92),rgba(18,13,9,.94));border-radius:18px;padding:24px 22px;box-shadow:0 24px 60px -42px rgba(0,0,0,.85);}
-.grid{display:grid;gap:13px;}
-.grid2{display:grid;gap:14px;grid-template-columns:1fr 1fr;}
-@media(max-width:650px){.grid2{grid-template-columns:1fr;}}
-.summary{display:grid;grid-template-columns:repeat(2,1fr);gap:10px;margin-top:28px;}
-@media(max-width:520px){.summary{grid-template-columns:1fr;}}
-.summary .item{border:1px solid var(--line);background:rgba(255,255,255,.035);border-radius:14px;padding:16px 15px;}
-.item .num{font-family:var(--eng);font-size:22px;color:var(--gold2);font-style:italic;line-height:1;}
-.item .tt{margin-top:8px;font-size:14px;color:var(--text);font-weight:700;}
-.item .ds{margin-top:4px;font-size:12.5px;color:var(--muted);line-height:1.55;}
+  *{box-sizing:border-box; margin:0; padding:0;}
+  html{scroll-behavior:smooth; -webkit-text-size-adjust:100%;}
+  body{
+    font-family:var(--sans);
+    background:var(--espresso);
+    color:var(--ivory);
+    line-height:1.82;
+    letter-spacing:-.01em;
+    -webkit-font-smoothing:antialiased;
+    word-break:keep-all;
+    overflow-wrap:break-word;
+    overflow-x:hidden;
+  }
 
-/* anchor quote */
-.quote{padding:90px 0;background:linear-gradient(180deg,rgba(38,25,14,.35),rgba(10,8,6,.15));text-align:center;}
-.quote .mark{font-family:var(--eng);font-size:54px;color:var(--gold);opacity:.68;line-height:1;}
-.quote h2{margin-top:8px;font-weight:400;}
-.quote p{margin:24px auto 0;max-width:440px;color:var(--text2);font-size:16px;font-weight:300;line-height:2;}
+  /* ambient warmth + faint grain */
+  body::before{
+    content:""; position:fixed; inset:0; z-index:0; pointer-events:none;
+    background:
+      radial-gradient(1000px 620px at 92% -8%, rgba(182,138,78,.13), transparent 60%),
+      radial-gradient(900px 700px at -8% 8%, rgba(40,28,18,.6), transparent 58%),
+      radial-gradient(1100px 800px at 50% 118%, rgba(182,138,78,.06), transparent 60%);
+  }
+  body::after{
+    content:""; position:fixed; inset:0; z-index:0; pointer-events:none; opacity:.05;
+    background-image:url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='160' height='160'%3E%3Cfilter id='n'%3E%3CfeTurbulence type='fractalNoise' baseFrequency='0.85' numOctaves='2' stitchTiles='stitch'/%3E%3C/filter%3E%3Crect width='100%25' height='100%25' filter='url(%23n)'/%3E%3C/svg%3E");
+  }
 
-/* asset vs gap */
-.duo{display:grid;grid-template-columns:1fr 1fr;gap:16px;margin-top:32px;}
-@media(max-width:650px){.duo{grid-template-columns:1fr;}}
-.panel{border:1px solid var(--line);background:linear-gradient(160deg,rgba(32,22,14,.92),rgba(18,13,9,.92));border-radius:18px;padding:24px 21px;}
-.panel .label{font-size:11px;letter-spacing:.22em;text-transform:uppercase;color:var(--gold2);font-weight:700;}
-.panel h3{margin-top:9px;color:var(--text);}
-ul.clean{list-style:none;margin-top:18px;display:grid;gap:11px;}
-ul.clean li{position:relative;padding-left:21px;color:var(--text2);font-size:13.7px;line-height:1.62;}
-ul.clean li::before{content:"+";position:absolute;left:0;top:0;color:var(--gold);font-family:var(--eng);font-size:18px;line-height:1.2;}
-.panel.gap li::before{content:"→";font-family:var(--sans);font-size:13px;top:2px;}
+  .wrap{position:relative; z-index:1; width:100%; max-width:var(--maxw); margin:0 auto; padding:0 var(--pad);}
+  section{position:relative; z-index:1;}
+  img{display:block; max-width:100%;}
 
-/* role map */
-.rolemap{margin-top:32px;display:flex;flex-direction:column;gap:13px;}
-.role{display:flex;gap:16px;align-items:flex-start;border:1px solid var(--line);background:rgba(255,255,255,.035);border-radius:16px;padding:18px 18px;}
-.role .rno{width:42px;height:42px;border-radius:13px;display:grid;place-items:center;background:rgba(201,154,74,.12);border:1px solid var(--line2);font-family:var(--eng);color:var(--gold2);font-style:italic;font-size:20px;flex:none;}
-.role .rt{font-weight:800;color:var(--text);}
-.role .rd{font-size:13px;color:var(--muted);line-height:1.62;margin-top:3px;}
+  ::selection{background:rgba(182,138,78,.3); color:#fff;}
+  :focus-visible{outline:2px solid var(--brass-hi); outline-offset:3px; border-radius:4px;}
 
-/* toggle flow */
-.togglebox{margin-top:32px;border:1px solid var(--line);background:linear-gradient(160deg,rgba(31,22,15,.92),rgba(13,10,8,.96));border-radius:22px;padding:22px 18px;}
-.switch{display:grid;grid-template-columns:1fr 1fr;gap:6px;padding:5px;border:1px solid var(--line);background:rgba(255,255,255,.035);border-radius:999px;margin-bottom:26px;}
-.switch button{appearance:none;border:0;border-radius:999px;background:transparent;color:var(--text2);font-weight:800;padding:10px 12px;font-size:13px;cursor:pointer;}
-.switch button[aria-pressed="true"]{background:linear-gradient(90deg,#A66F2E,#E2B766);color:#120B06;}
-.flowgrid{display:grid;gap:12px;}
-.frow{display:flex;gap:14px;align-items:flex-start;padding:15px 16px;border-radius:15px;border:1px solid var(--line);background:rgba(255,255,255,.035);}
-.frow .dot{width:9px;height:9px;border-radius:50%;background:var(--gold);box-shadow:0 0 18px rgba(231,192,117,.72);margin-top:9px;flex:none;}
-.frow .ft{font-family:var(--serif);color:var(--text);font-size:15px;}
-.frow .fd{font-size:12.5px;color:var(--muted);margin-top:3px;line-height:1.58;}
+  /* ---------------- typography ---------------- */
+  h1,h2,h3,h4{font-family:var(--serif); font-weight:500; letter-spacing:-.02em; line-height:1.42; text-wrap:balance;}
+  .lead,.note,p,li,.fn-note,.ds{text-wrap:pretty;}
 
-/* checklist */
-.checkarea{background:linear-gradient(180deg,rgba(31,20,12,.72),rgba(10,8,6,.95));}
-.qcard{border:1px solid var(--line);border-radius:19px;background:linear-gradient(160deg,rgba(37,25,16,.95),rgba(15,11,8,.97));padding:24px 20px;margin-top:14px;}
-.qcard .qno{font-family:var(--eng);font-style:italic;color:var(--gold2);font-size:17px;}
-.qcard h3{margin-top:7px;margin-bottom:15px;font-size:17px;}
-.opts{display:flex;flex-wrap:wrap;gap:9px;}
-.pill{position:relative;cursor:pointer;user-select:none;}
-.pill input{position:absolute;opacity:0;width:0;height:0;}
-.pill span{display:inline-flex;align-items:center;gap:8px;border:1px solid var(--line2);border-radius:999px;padding:10px 14px;color:var(--text2);background:rgba(255,255,255,.035);font-size:13px;font-weight:650;transition:all .22s ease;}
-.pill span::before{content:"";width:14px;height:14px;border-radius:50%;border:1px solid rgba(231,192,117,.55);flex:none;}
-.pill.chk span::before{border-radius:5px;}
-.pill input:checked + span{background:linear-gradient(90deg,#A66F2E,#E2B766);border-color:transparent;color:#120B06;box-shadow:0 14px 30px -20px rgba(231,192,117,.95);}
-.pill input:checked + span::before{background:#120B06;border-color:#120B06;box-shadow:inset 0 0 0 3px #E2B766;}
-textarea{width:100%;min-height:95px;resize:vertical;background:rgba(0,0,0,.22);border:1px solid var(--line2);border-radius:14px;color:var(--text);font-family:var(--sans);padding:14px 15px;font-size:14px;line-height:1.7;}
-textarea::placeholder{color:rgba(205,188,166,.55);}
-.actionbar{text-align:center;margin-top:30px;}
-.actionbar .hint{margin-top:13px;color:var(--muted);font-size:12.5px;}
+  .eng{font-family:var(--eng);}
+  .sv{color:var(--brass-hi);}
+  .sb{color:var(--blue);}
 
-/* channel cards */
-.channels{margin-top:30px;display:grid;gap:13px;}
-.channel{display:grid;grid-template-columns:118px 1fr;gap:15px;align-items:start;border:1px solid var(--line);background:rgba(255,255,255,.035);border-radius:16px;padding:18px;}
-@media(max-width:480px){.channel{grid-template-columns:1fr;gap:6px;}}
-.channel .ck{font-family:var(--eng);font-style:italic;color:var(--gold2);font-size:19px;}
-.channel .ct{font-weight:800;color:var(--text);}
-.channel .cd{font-size:13px;color:var(--muted);line-height:1.62;margin-top:3px;}
+  /* ---------------- top bar ---------------- */
+  .topbar{
+    position:sticky; top:0; z-index:40;
+    background:rgba(21,16,11,.82);
+    -webkit-backdrop-filter:blur(10px); backdrop-filter:blur(10px);
+    border-bottom:1px solid var(--line);
+  }
+  .topbar .row{
+    max-width:var(--maxw); margin:0 auto; padding:13px var(--pad);
+    display:flex; align-items:center; justify-content:space-between; gap:14px;
+  }
+  .tb-brand{
+    font-family:var(--eng); font-size:.82rem; letter-spacing:.26em;
+    text-transform:uppercase; color:var(--ivory-dim);
+  }
+  .tb-brand b{color:var(--brass-hi); font-weight:600;}
+  .tb-link{
+    font-size:.74rem; letter-spacing:.12em; text-transform:uppercase;
+    color:var(--ivory-dim); text-decoration:none;
+    border:1px solid var(--line-2); border-radius:999px; padding:6px 14px;
+    transition:border-color .3s, color .3s;
+  }
+  .tb-link:hover{border-color:var(--blue-line); color:var(--blue);}
 
-/* plan */
-.steps{margin-top:32px;counter-reset:step;display:grid;gap:12px;}
-.step{counter-increment:step;display:flex;gap:15px;align-items:flex-start;border:1px solid var(--line);background:rgba(255,255,255,.035);border-radius:16px;padding:17px 17px;}
-.step::before{content:counter(step);width:34px;height:34px;display:grid;place-items:center;border-radius:11px;background:rgba(201,154,74,.12);border:1px solid var(--line2);font-family:var(--eng);font-size:19px;color:var(--gold2);flex:none;}
-.step b{display:block;color:var(--text);font-size:14.5px;}
-.step span{display:block;margin-top:3px;color:var(--muted);font-size:12.7px;line-height:1.55;}
+  /* ---------------- HERO ---------------- */
+  .hero{
+    position:relative; overflow:hidden;
+    min-height:min(92svh, 760px);
+    display:flex; align-items:flex-end;
+    background:
+      linear-gradient(to bottom, rgba(21,16,11,.35) 0%, rgba(21,16,11,.1) 26%, rgba(21,16,11,.55) 64%, var(--espresso) 100%),
+      radial-gradient(120% 80% at 70% 36%, rgba(21,16,11,.15), rgba(21,16,11,.72) 100%),
+      url("coffee829hero.jpg") center / cover no-repeat;
+  }
+  .hero-inner{width:100%; max-width:var(--maxw); margin:0 auto; padding:0 var(--pad) clamp(48px,9vw,72px);}
+  .hero-eyebrow{
+    font-family:var(--eng); font-style:italic; font-size:.92rem; letter-spacing:.18em;
+    text-transform:uppercase; color:var(--brass-hi);
+    display:inline-flex; align-items:center; gap:11px; margin-bottom:22px;
+  }
+  .hero-eyebrow::before{content:""; width:30px; height:1px; background:var(--brass);}
+  .hero h1{
+    font-weight:600; color:#FBF6EA;
+    font-size:clamp(2.05rem, 8.5vw, 2.95rem); line-height:1.26;
+    letter-spacing:-.025em;
+    text-shadow:0 2px 30px rgba(0,0,0,.55);
+  }
+  .hero h1 em{font-style:normal; color:var(--brass-hi);}
+  .hero-sub{
+    margin-top:20px; max-width:40ch;
+    color:rgba(236,228,213,.82); font-size:clamp(.98rem,3.6vw,1.06rem);
+    line-height:1.85; font-weight:300;
+  }
+  .hero-cta{display:flex; flex-wrap:wrap; gap:12px; margin-top:clamp(30px,6vw,40px);}
+  .btn{
+    display:inline-flex; align-items:center; gap:9px;
+    font-family:var(--sans); font-weight:600; font-size:.98rem;
+    padding:14px 24px; border-radius:999px; cursor:pointer; text-decoration:none;
+    border:1px solid transparent; transition:transform .35s var(--ease), background .3s, border-color .3s, color .3s;
+  }
+  .btn svg{width:16px; height:16px;}
+  .btn-cream{background:var(--cream); color:var(--cream-ink); box-shadow:0 14px 34px -18px rgba(0,0,0,.7);}
+  .btn-cream:hover{transform:translateY(-2px); background:#fff;}
+  .btn-blue{background:rgba(134,160,194,.08); color:var(--blue); border-color:var(--blue-line);}
+  .btn-blue:hover{transform:translateY(-2px); background:rgba(134,160,194,.16); color:#cfe;}
 
-/* CTA */
-.cta{text-align:center;padding:92px 0 104px;background:linear-gradient(180deg,rgba(10,8,6,.1),rgba(39,24,13,.58));}
-.cta p{margin:20px auto 0;max-width:420px;color:var(--text2);font-size:15px;line-height:1.9;}
-.cta .btn{margin-top:30px;}
-footer{position:relative;z-index:2;border-top:1px solid var(--line);padding:36px 0 48px;text-align:center;color:var(--muted);font-size:11.5px;}
-footer .fbrand{font-size:12px;letter-spacing:.38em;color:var(--gold2);font-weight:800;text-transform:uppercase;margin-bottom:10px;}
+  /* ---------------- chapter scaffold ---------------- */
+  .chapter{padding:clamp(64px,12vw,104px) 0;}
+  .ch-head{margin-bottom:clamp(32px,6vw,46px);}
+  .ch-no{
+    font-family:var(--eng); font-style:italic; color:var(--brass);
+    font-size:1.1rem; letter-spacing:.06em;
+    display:flex; align-items:center; gap:11px; margin-bottom:16px;
+  }
+  .ch-no::before{content:""; width:26px; height:1px; background:var(--brass-deep);}
+  .ch-no b{font-style:normal; font-family:var(--eng); font-size:1.5rem; color:var(--brass-hi); letter-spacing:.02em;}
+  .ch-no span{font-style:normal; font-family:var(--sans); font-size:.7rem; letter-spacing:.26em; text-transform:uppercase; color:var(--muted);}
+  h2.ch-title{font-size:clamp(1.5rem,5.6vw,1.95rem); color:var(--ivory); font-weight:500; line-height:1.4;}
+  h2.ch-title b{color:var(--brass-hi); font-weight:600;}
+  .lead{margin-top:16px; font-size:clamp(.98rem,3.6vw,1.04rem); color:var(--ivory-dim); font-weight:300; line-height:1.85; max-width:46ch;}
 
-/* modal */
-.modalback{position:fixed;inset:0;z-index:100;background:rgba(5,3,2,.72);backdrop-filter:blur(5px);display:flex;align-items:center;justify-content:center;padding:20px;opacity:0;visibility:hidden;transition:all .28s ease;}
-.modalback.open{opacity:1;visibility:visible;}
-.modal{max-width:500px;width:100%;border:1px solid var(--line2);border-top:3px solid var(--gold);border-radius:22px;background:linear-gradient(165deg,#21160F,#0F0B08);padding:28px 22px;box-shadow:0 38px 90px -38px #000;transform:translateY(14px);transition:transform .28s ease;}
-.modalback.open .modal{transform:none;}
-.modal h3{font-size:22px;margin-bottom:10px;}
-.modal p{color:var(--text2);font-size:14px;line-height:1.75;}
-.summaryText{margin-top:18px;background:rgba(0,0,0,.24);border:1px solid var(--line);border-radius:14px;padding:14px 14px;color:var(--text2);font-size:13px;line-height:1.75;white-space:pre-wrap;max-height:240px;overflow:auto;}
-.modalactions{display:flex;gap:9px;margin-top:20px;}
-.modalactions button{flex:1;border-radius:999px;border:1px solid var(--line2);padding:13px 15px;font-weight:800;cursor:pointer;background:transparent;color:var(--gold2);}
-.modalactions button.solid{background:linear-gradient(90deg,#A66F2E,#E2B766);color:#120B06;border:0;}
+  .mini-kicker{
+    font-size:.7rem; letter-spacing:.28em; text-transform:uppercase;
+    color:var(--blue); font-weight:600;
+    display:flex; align-items:center; gap:10px; margin-bottom:14px;
+  }
+  .mini-kicker::before{content:""; width:22px; height:1px; background:var(--blue-line);}
 
+  /* ---------------- cards (cream) ---------------- */
+  .stack{display:grid; gap:14px;}
+  .grid-2{display:grid; gap:14px;}
+  @media(min-width:520px){ .grid-2{grid-template-columns:1fr 1fr;} }
 
+  .ccard{
+    background:linear-gradient(168deg, var(--cream), var(--cream-2));
+    color:var(--cream-ink);
+    border:1px solid var(--cream-line);
+    border-radius:var(--r);
+    padding:clamp(20px,4.6vw,26px);
+    box-shadow:0 18px 44px -28px rgba(0,0,0,.7);
+    position:relative; overflow:hidden;
+    transition:transform .5s var(--ease), box-shadow .5s;
+  }
+  .ccard::before{
+    content:""; position:absolute; left:0; top:0; bottom:0; width:3px;
+    background:linear-gradient(var(--brass), var(--brass-deep)); opacity:.85;
+  }
+  .ccard.blue::before{background:linear-gradient(var(--blue), #5d769a);}
+  @media(hover:hover){ .ccard:hover{transform:translateY(-3px); box-shadow:0 26px 52px -28px rgba(0,0,0,.75);} }
+  .cc-no{font-family:var(--eng); font-style:italic; color:var(--brass-deep); font-size:1rem; letter-spacing:.08em; display:block; margin-bottom:7px;}
+  .ccard h3{font-size:clamp(1.12rem,4.4vw,1.24rem); color:var(--cream-ink); font-weight:600; letter-spacing:-.02em; line-height:1.4;}
+  .ccard p{margin-top:8px; font-size:.95rem; color:var(--cream-ink-soft); line-height:1.7;}
+  .ccard .eng{color:var(--brass-deep); font-style:italic; letter-spacing:.02em;}
 
-/* 829 naming story */
-.name-story{background:linear-gradient(180deg,rgba(10,8,6,.06),rgba(39,24,13,.35));}
-.name-card{border:1px solid var(--line2);border-radius:24px;background:linear-gradient(165deg,rgba(42,26,14,.92),rgba(13,9,6,.97));padding:30px 24px;box-shadow:0 34px 86px -55px rgba(0,0,0,.94);overflow:hidden;position:relative;}
-.name-card::before{content:"829";position:absolute;right:-12px;top:-36px;font-family:var(--eng);font-size:140px;line-height:1;color:rgba(231,192,117,.055);font-style:italic;pointer-events:none;}
-.name-hero{display:grid;grid-template-columns:118px 1fr;gap:24px;align-items:center;position:relative;z-index:1;}
-.name-mark{width:118px;height:118px;border-radius:32px;border:1px solid var(--line2);background:radial-gradient(circle at 35% 25%,rgba(231,192,117,.22),rgba(201,154,74,.06) 42%,rgba(0,0,0,.22));display:grid;place-items:center;font-family:var(--eng);font-size:48px;color:var(--gold2);font-style:italic;box-shadow:inset 0 1px 0 rgba(255,255,255,.06);}
-.name-copy h2{font-size:clamp(26px,7vw,38px);font-weight:400;}
-.name-copy p{margin-top:16px;color:var(--text2);font-size:15px;line-height:1.9;font-weight:300;}
-.name-note{margin-top:24px;border-left:2px solid var(--gold);padding-left:16px;color:var(--text2);font-size:14px;line-height:1.82;position:relative;z-index:1;}
-.name-note b{color:var(--gold2);}
-@media(max-width:640px){
-  .name-hero{grid-template-columns:1fr;gap:18px;}
-  .name-mark{width:98px;height:98px;border-radius:26px;font-size:42px;}
-}
+  /* signal-kit specific cream cards */
+  .sig{display:grid; gap:12px;}
+  @media(min-width:520px){ .sig{grid-template-columns:1fr 1fr;} .sig .span2{grid-column:1 / -1;} }
+  .sig .ccard{padding:clamp(18px,4.2vw,22px);}
+  .sig .place{
+    font-size:.68rem; letter-spacing:.22em; text-transform:uppercase;
+    color:var(--brass-deep); font-weight:700; display:block; margin-bottom:9px;
+  }
+  .sig .signal{font-family:var(--serif); font-weight:500; font-size:1.04rem; color:var(--cream-ink); line-height:1.5;}
+  .sig .signal.en{font-family:var(--eng); font-style:italic; font-size:1.18rem; letter-spacing:.01em;}
 
-/* naver place upgrade */
-.place-section{background:linear-gradient(180deg,rgba(43,26,14,.24),rgba(10,8,6,.06));}
-.place-layout{margin-top:34px;display:grid;grid-template-columns:.82fr 1.18fr;gap:22px;align-items:start;}
-@media(max-width:720px){.place-layout{grid-template-columns:1fr;}}
-.phone-frame{border:1px solid var(--line2);border-radius:30px;background:linear-gradient(160deg,rgba(255,255,255,.08),rgba(0,0,0,.28));padding:10px;box-shadow:0 34px 90px -55px rgba(0,0,0,.95);position:sticky;top:18px;}
-@media(max-width:720px){.phone-frame{position:relative;top:auto;max-width:360px;margin:0 auto;}}
-.phone-frame img{display:block;width:100%;border-radius:23px;max-height:690px;object-fit:cover;object-position:top center;}
-.place-cards{display:grid;gap:14px;}
-.place-card{border:1px solid var(--line);border-radius:18px;background:linear-gradient(160deg,rgba(35,24,16,.92),rgba(15,10,7,.96));padding:21px 19px;}
-.place-card .pk{font-size:10.5px;letter-spacing:.22em;text-transform:uppercase;color:var(--gold2);font-weight:800;margin-bottom:10px;}
-.place-card h3{font-size:18px;color:var(--text);margin-bottom:10px;}
-.place-card p{font-size:13.5px;color:var(--text2);line-height:1.72;}
-.place-card .micro{margin-top:12px;display:flex;gap:7px;flex-wrap:wrap;}
-.micro span{border:1px solid var(--line2);border-radius:999px;padding:6px 9px;color:var(--gold2);background:rgba(201,154,74,.06);font-size:11.5px;font-weight:700;}
-.bean-list{display:grid;gap:8px;margin-top:13px;}
-.bean{display:flex;justify-content:space-between;gap:12px;border-bottom:1px dashed rgba(221,184,124,.18);padding-bottom:7px;font-size:12.5px;color:var(--text2);}
-.bean b{color:var(--text);font-weight:750;}
-.surface-note{margin-top:22px;border-left:2px solid var(--gold);padding:14px 0 14px 17px;color:var(--text2);font-size:14px;line-height:1.78;}
-.surface-note b{color:var(--gold2);font-weight:800;}
+  /* ---------------- dark surface cards ---------------- */
+  .dcard{
+    background:linear-gradient(168deg, var(--char), var(--char-2));
+    border:1px solid var(--line-2);
+    border-radius:var(--r);
+    padding:clamp(22px,4.8vw,28px);
+    position:relative; overflow:hidden;
+    transition:transform .5s var(--ease), border-color .4s;
+  }
+  @media(hover:hover){ .dcard:hover{transform:translateY(-3px); border-color:rgba(214,196,168,.3);} }
+  .dcard .chip{
+    display:inline-block; font-size:.66rem; letter-spacing:.2em; text-transform:uppercase;
+    font-weight:700; padding:5px 12px; border-radius:999px; margin-bottom:16px;
+  }
+  .chip.gap{background:rgba(182,138,78,.12); color:var(--brass-hi); border:1px solid rgba(182,138,78,.4);}
+  .chip.asset{background:var(--blue-soft); color:var(--blue); border:1px solid var(--blue-line);}
+  .dcard h3{font-size:1.12rem; color:var(--ivory); font-weight:600; letter-spacing:-.01em; margin-bottom:14px;}
+  .dlist{list-style:none; display:grid; gap:11px;}
+  .dlist li{position:relative; padding-left:24px; font-size:.95rem; line-height:1.65; color:var(--ivory-dim);}
+  .dlist.gap li::before{content:"–"; position:absolute; left:4px; top:-1px; color:var(--brass); font-weight:600;}
+  .dlist.asset li{color:var(--ivory);}
+  .dlist.asset li::before{
+    content:""; position:absolute; left:2px; top:9px; width:8px; height:8px;
+    background:var(--brass); transform:rotate(45deg); border-radius:1px;
+  }
 
-/* custom additions */
-.thesis-card{margin-top:22px;border:1px solid var(--line2);border-radius:20px;background:linear-gradient(160deg,rgba(47,29,15,.9),rgba(16,11,7,.96));padding:25px 22px;box-shadow:0 28px 70px -48px rgba(231,192,117,.42);}
-.thesis-card .thesis-k{font-family:var(--eng);font-style:italic;font-size:17px;color:var(--gold2);letter-spacing:.03em;margin-bottom:12px;}
-.thesis-card p{color:var(--text2);font-size:14px;line-height:1.82;}
-.thesis-card h3{font-size:22px;margin:13px 0 14px;color:var(--text);font-weight:400;}
-.thesis-card span{color:var(--gold2);}
-.roasting{background-position:left center;}
-.diagnostic{background-position:left center;}
-.seocho{background-position:center center;}
-@media(max-width:640px){
-  .hero{background-position:38% center;}
-  .imgbreak{min-height:330px;}
-  .imgbreak .caption{padding:78px 24px;}
-  .imgbreak h2{font-size:clamp(25px,8vw,34px);}
-  .thesis-card h3{font-size:20px;}
-}
+  /* recovery / emphasis line */
+  .recover{
+    margin-top:22px; padding:clamp(22px,5vw,30px);
+    background:linear-gradient(150deg, rgba(182,138,78,.08), rgba(36,27,18,.4));
+    border:1px solid rgba(182,138,78,.22); border-left:3px solid var(--brass);
+    border-radius:var(--r);
+    font-family:var(--serif); font-weight:300;
+    font-size:clamp(1.04rem,4vw,1.16rem); line-height:1.78; color:var(--ivory);
+  }
+  .recover b{color:var(--brass-hi); font-weight:500;}
 
+  /* details (접힘 — 긴 설명) */
+  details.more{
+    margin-top:16px; border-top:1px solid var(--line); padding-top:8px;
+  }
+  details.more summary{
+    list-style:none; cursor:pointer; padding:12px 0;
+    font-size:.9rem; letter-spacing:.01em; color:var(--blue);
+    display:flex; align-items:center; gap:9px;
+  }
+  details.more summary::-webkit-details-marker{display:none;}
+  details.more summary .pm{
+    width:18px; height:18px; flex:0 0 auto; border:1px solid var(--blue-line); border-radius:50%;
+    position:relative; transition:transform .3s var(--ease);
+  }
+  details.more summary .pm::before,
+  details.more summary .pm::after{content:""; position:absolute; background:var(--blue); border-radius:1px;}
+  details.more summary .pm::before{left:50%; top:4px; bottom:4px; width:1.5px; transform:translateX(-50%);}
+  details.more summary .pm::after{top:50%; left:4px; right:4px; height:1.5px; transform:translateY(-50%);}
+  details.more[open] summary .pm{transform:rotate(135deg);}
+  details.more .more-body{font-size:.94rem; color:var(--ivory-dim); line-height:1.8; padding:4px 0 14px;}
 
-/* Weplace Fresh Modules */
-.place-compare-section{background:linear-gradient(180deg,rgba(43,26,14,.18),rgba(10,8,6,.10));}
-.compare-shell{margin-top:30px;border:1px solid var(--line2);border-radius:24px;background:linear-gradient(160deg,rgba(37,24,15,.94),rgba(12,9,7,.97));padding:20px;box-shadow:0 34px 90px -60px rgba(0,0,0,.95);}
-.compare-note{margin-top:16px;border-left:2px solid var(--gold);padding:12px 0 12px 15px;color:var(--text2);font-size:13.5px;line-height:1.75;}
-.compare-note b{color:var(--gold2);}
-.lens-section{padding-top:0;}
-.lens-grid{display:grid;gap:12px;margin-top:28px;}
-.lens-card{border:1px solid var(--line);border-radius:18px;background:linear-gradient(160deg,rgba(34,23,15,.92),rgba(13,10,8,.95));padding:18px 17px;display:grid;grid-template-columns:1fr;gap:10px;}
-.lens-line{display:grid;grid-template-columns:34px 1fr;gap:12px;align-items:start;}
-.lens-mark{width:34px;height:34px;border-radius:12px;display:grid;place-items:center;font-family:var(--eng);font-size:20px;font-style:italic;border:1px solid var(--line2);}
-.lens-mark.x{color:#8A7660;background:rgba(255,255,255,.03);}
-.lens-mark.o{color:#120B06;background:linear-gradient(135deg,#A66F2E,#E2B766);border:0;}
-.lens-text b{display:block;color:var(--text);font-size:14.5px;line-height:1.55;}
-.lens-text span{display:block;margin-top:3px;color:var(--muted);font-size:12.5px;line-height:1.55;}
-.lens-card .arrow{width:1px;height:16px;background:linear-gradient(var(--line2),transparent);margin:0 0 0 16px;}
-.ai-section{background:linear-gradient(180deg,rgba(10,8,6,.06),rgba(42,26,14,.32));}
-.ai-shell{margin-top:30px;border:1px solid var(--line2);border-radius:24px;background:linear-gradient(160deg,rgba(30,21,14,.96),rgba(10,8,6,.98));padding:20px;box-shadow:0 34px 90px -60px #000;}
-.ai-window{border:1px solid var(--line);border-radius:20px;background:#0B0907;overflow:hidden;}
-.ai-top{display:flex;align-items:center;gap:7px;border-bottom:1px solid var(--line);padding:13px 15px;color:var(--muted);font-size:10.5px;letter-spacing:.22em;text-transform:uppercase;font-weight:800;}
-.ai-dot{width:8px;height:8px;border-radius:50%;background:var(--gold);box-shadow:0 0 14px rgba(231,192,117,.55);}
-.ai-body{padding:18px 16px 20px;}
-.ai-question{display:flex;justify-content:flex-end;margin-bottom:18px;}
-.ai-question span{max-width:88%;border:1px solid var(--line);background:rgba(255,255,255,.045);border-radius:16px 16px 4px 16px;padding:12px 14px;color:var(--text2);font-size:13px;line-height:1.65;}
-.ai-answer{display:flex;gap:12px;align-items:flex-start;}
-.ai-icon{width:30px;height:30px;border-radius:50%;background:radial-gradient(circle at 35% 30%,#E7C075,#7B4E2D);flex:none;box-shadow:0 0 18px rgba(231,192,117,.32);}
-.ai-content h3{font-family:var(--sans);font-size:14px;color:var(--text);margin-bottom:8px;letter-spacing:0;}
-.ai-content p{color:var(--text2);font-size:13.3px;line-height:1.78;}
-.ai-list{display:grid;gap:8px;margin-top:12px;}
-.ai-list div{border:1px solid var(--line);border-radius:13px;background:rgba(255,255,255,.035);padding:10px 11px;color:var(--text2);font-size:12.5px;line-height:1.55;}
-.ai-list b{color:var(--gold2);}
-.ai-switch{display:grid;grid-template-columns:1fr 1fr;gap:7px;margin-bottom:16px;}
-.ai-switch button{border:1px solid var(--line2);border-radius:999px;background:rgba(255,255,255,.035);color:var(--text2);padding:10px 12px;font-size:13px;font-weight:850;cursor:pointer;}
-.ai-switch button[aria-pressed="true"]{background:linear-gradient(90deg,#A66F2E,#E2B766);color:#120B06;border-color:transparent;}
-.asset-left-section{background:linear-gradient(180deg,rgba(37,23,13,.22),rgba(10,8,6,.04));}
-.asset-table{margin-top:30px;border:1px solid var(--line);border-radius:22px;overflow:hidden;background:rgba(255,255,255,.028);}
-.asset-head,.asset-row{display:grid;grid-template-columns:1fr 1.15fr 1.05fr;gap:1px;border-bottom:1px solid var(--line);}
-.asset-head{background:rgba(201,154,74,.10);}
-.asset-head div{padding:13px 14px;color:var(--gold2);font-size:11px;letter-spacing:.14em;text-transform:uppercase;font-weight:900;}
-.asset-row:last-child{border-bottom:0;}
-.asset-row>div{padding:16px 14px;background:rgba(255,255,255,.025);font-size:13px;line-height:1.62;color:var(--text2);}
-.asset-row b{display:block;color:var(--text);font-size:13.5px;margin-bottom:4px;}
-.asset-row .remain{color:var(--gold2);}
-.fresh-tagline{margin-top:20px;border:1px solid var(--line2);border-radius:18px;background:linear-gradient(160deg,rgba(201,154,74,.13),rgba(255,255,255,.03));padding:18px;color:var(--text2);font-size:14px;line-height:1.82;}
-.fresh-tagline b{color:var(--gold2);}
-@media(max-width:620px){
-  .asset-head{display:none;}
-  .asset-row{grid-template-columns:1fr;border-bottom:1px solid var(--line2);}
-  .asset-row>div{border-bottom:1px solid rgba(221,184,124,.08);}
-  .asset-row>div:last-child{border-bottom:0;}
-}
+  /* ---------------- signature thread ---------------- */
+  .thread{margin-top:clamp(34px,7vw,48px);}
+  .thread-line{position:relative; display:flex; justify-content:space-between; padding:0 6px;}
+  .thread-line::before{
+    content:""; position:absolute; left:14px; right:14px; top:7px; height:1px;
+    background:linear-gradient(90deg, rgba(182,138,78,.2), var(--brass) 50%, var(--brass-hi));
+  }
+  .node{position:relative; text-align:center; flex:0 0 auto; width:33%;}
+  .node::before{
+    content:""; position:relative; z-index:1; display:block; width:14px; height:14px; margin:0 auto;
+    border-radius:50%; background:var(--espresso); border:2px solid var(--brass);
+  }
+  .node.now::before{background:var(--brass-hi); border-color:var(--brass-hi); box-shadow:0 0 0 4px rgba(182,138,78,.18);}
+  .node b{display:block; margin-top:12px; font-family:var(--eng); font-style:italic; font-size:1.1rem; color:var(--brass-hi); letter-spacing:.03em;}
+  .node i{display:block; font-style:normal; font-size:.74rem; letter-spacing:.05em; color:var(--ivory-dim); margin-top:2px;}
+  .node.now b{color:#FBF6EA;}
+  .thread-cap{
+    margin-top:22px; text-align:center; font-family:var(--serif); font-weight:300;
+    font-size:.98rem; color:var(--ivory-dim); letter-spacing:.01em;
+  }
+  .thread-cap b{color:var(--brass-hi); font-weight:500;}
 
+  /* ---------------- before / after slider ---------------- */
+  .ba{margin-top:clamp(34px,7vw,48px);}
+  .ba-frame{
+    position:relative; border-radius:var(--r); overflow:hidden;
+    border:1px solid var(--line-2);
+    touch-action:pan-y; user-select:none; -webkit-user-select:none;
+    --x:50%;
+  }
+  .ba-sizer{visibility:hidden; padding:clamp(22px,5.4vw,30px); pointer-events:none;}
+  .ba-pane{position:absolute; inset:0; padding:clamp(22px,5.4vw,30px);}
+  .ba-before{background:linear-gradient(160deg, #1d160f, #15100b);}
+  .ba-after{
+    background:linear-gradient(160deg, rgba(182,138,78,.14), #221a11 70%);
+    clip-path:inset(0 0 0 var(--x));
+    border-left:0;
+  }
+  .ba-tag{
+    display:inline-block; font-size:.66rem; letter-spacing:.2em; text-transform:uppercase;
+    font-weight:700; padding:5px 11px; border-radius:999px; margin-bottom:14px;
+  }
+  .ba-tag.before{background:rgba(214,196,168,.08); color:var(--ivory-dim); border:1px solid var(--line-2);}
+  .ba-tag.after{background:rgba(182,138,78,.16); color:var(--brass-hi); border:1px solid rgba(182,138,78,.45);}
+  .ba-h{font-size:clamp(1.06rem,4.4vw,1.2rem); color:var(--ivory); font-weight:600; line-height:1.4; margin-bottom:13px;}
+  .ba-after .ba-h{color:#FBF6EA;}
+  .ba-list{list-style:none; display:grid; gap:8px;}
+  .ba-list li{position:relative; padding-left:18px; font-size:.9rem; line-height:1.6; color:var(--ivory-dim);}
+  .ba-list li::before{content:""; position:absolute; left:2px; top:9px; width:5px; height:5px; border-radius:50%; background:var(--brass-deep);}
+  .ba-after .ba-list li{color:var(--ivory);}
+  .ba-after .ba-list li::before{background:var(--brass-hi);}
 
-/* ============================================================
-   WEPLACE RETOUCH — 3-min summary, chapter rail, compare, folds
-   ============================================================ */
+  .ba-handle{
+    position:absolute; top:0; bottom:0; left:var(--x); transform:translateX(-50%);
+    width:44px; background:transparent; border:none; cursor:ew-resize; z-index:5;
+    display:flex; align-items:center; justify-content:center; padding:0;
+    touch-action:none;
+  }
+  .ba-handle::before{content:""; position:absolute; top:0; bottom:0; left:50%; transform:translateX(-50%); width:2px; background:var(--brass); opacity:.92;}
+  .ba-grip{
+    position:relative; z-index:1; width:40px; height:40px; border-radius:50%;
+    background:var(--brass); color:var(--espresso);
+    display:flex; align-items:center; justify-content:center;
+    box-shadow:0 8px 22px -8px rgba(0,0,0,.7), 0 0 0 4px rgba(21,16,11,.5);
+    transition:transform .25s var(--ease), background .25s;
+  }
+  .ba-grip::before{content:"◂ ▸"; font-size:.7rem; letter-spacing:-1px; font-weight:700;}
+  .ba-handle:hover .ba-grip, .ba-handle:focus-visible .ba-grip{transform:scale(1.08); background:var(--brass-hi);}
+  .ba-handle.is-nudge .ba-grip{animation:gripPulse 1.6s var(--ease);}
+  @keyframes gripPulse{0%,100%{transform:scale(1);}50%{transform:scale(1.12);}}
 
-/* 3-minute summary */
-.summary3{padding:60px 0 54px;background:linear-gradient(180deg,rgba(39,24,13,.5),rgba(10,8,6,.06));}
-.s3-head h2{font-size:clamp(25px,6.4vw,34px);font-weight:400;}
-.s3-grid{display:grid;gap:12px;margin-top:26px;}
-.s3-card{border:1px solid var(--line2);background:linear-gradient(160deg,rgba(40,26,16,.96),rgba(13,10,7,.96));border-radius:18px;padding:20px 19px;display:grid;grid-template-columns:30px 1fr;gap:15px;align-items:start;box-shadow:0 24px 60px -46px #000;}
-.s3-card .s3-no{font-family:var(--eng);font-style:italic;font-size:21px;color:var(--gold2);line-height:1.1;}
-.s3-card b{display:block;font-family:var(--serif);font-size:16.5px;color:var(--text);font-weight:500;line-height:1.5;}
-.s3-card span{display:block;margin-top:6px;color:var(--text2);font-size:13.3px;line-height:1.62;font-weight:300;}
-.s3-note{margin-top:22px;border-left:2px solid var(--gold);padding-left:15px;color:var(--text2);font-size:14px;line-height:1.78;}
+  .ba-cap{
+    margin-top:20px; font-family:var(--serif); font-weight:300;
+    font-size:clamp(1rem,3.8vw,1.1rem); line-height:1.75; color:var(--ivory);
+    border-left:2px solid var(--brass); padding-left:16px;
+  }
+  .ba-hint{margin-top:12px; font-size:.78rem; letter-spacing:.08em; color:var(--muted); text-align:center;}
 
-/* chapter rail (premium progress, not app-like) */
-.chaprail{display:flex;align-items:center;justify-content:flex-start;flex-wrap:wrap;gap:2px;margin-bottom:26px;}
-.chaprail a{display:inline-flex;align-items:center;gap:8px;text-decoration:none;padding:6px 2px;transition:color .2s ease;}
-.chaprail .cr-no{font-family:var(--eng);font-style:italic;font-size:16px;color:var(--muted);}
-.chaprail .cr-label{font-size:12px;letter-spacing:.01em;color:var(--muted);}
-.chaprail a:hover .cr-no,.chaprail a:hover .cr-label{color:var(--text2);}
-.chaprail a.active .cr-no{color:var(--gold2);}
-.chaprail a.active .cr-label{color:var(--text);font-weight:700;}
-.chaprail .cr-sep{width:22px;height:1px;background:var(--line2);margin:0 8px;flex:none;}
+  /* ---------------- soft statement (고급화 ≠ 기준) ---------------- */
+  .statement{padding:clamp(58px,11vw,90px) 0;}
+  .statement h2{font-size:clamp(1.42rem,5.4vw,1.85rem); color:var(--ivory); line-height:1.42;}
+  .statement .body{margin-top:18px; display:grid; gap:13px; max-width:46ch;}
+  .statement .body p{font-size:clamp(.98rem,3.6vw,1.04rem); color:var(--ivory-dim); line-height:1.82; font-weight:300;}
+  .statement .body p b{color:var(--ivory); font-weight:500;}
+  .statement .pull{
+    margin-top:26px; font-family:var(--serif); font-weight:500;
+    font-size:clamp(1.12rem,4.6vw,1.34rem); line-height:1.6; color:#FBF6EA;
+    letter-spacing:-.01em;
+  }
+  .statement .pull .x{color:var(--brass-hi);}
+  .statement .pull .o{color:var(--blue);}
 
-/* chapter opener */
-.chapintro{padding:74px 0 0;}
-.chapintro .ch-eyebrow{font-family:var(--eng);font-style:italic;color:var(--gold2);font-size:19px;letter-spacing:.02em;}
-.chapintro h2{font-size:clamp(27px,7vw,38px);font-weight:400;margin-top:6px;}
-.chapintro .ch-sum{margin-top:16px;font-family:var(--serif);font-weight:300;color:var(--text2);font-size:15.5px;line-height:1.92;border-left:2px solid var(--gold);padding-left:16px;}
-.chapintro + section{padding-top:30px;}
+  /* ---------------- cinematic image break ---------------- */
+  .shot{position:relative; margin:clamp(8px,2vw,18px) 0;}
+  .shot-img{position:relative; width:100%; aspect-ratio:16/10; overflow:hidden;}
+  @media(min-width:520px){ .shot-img{aspect-ratio:16/9;} }
+  .shot-img img{width:100%; height:100%; object-fit:cover;}
+  .shot-img::after{
+    content:""; position:absolute; inset:0;
+    background:linear-gradient(to bottom, rgba(21,16,11,.45) 0%, transparent 28%, transparent 55%, rgba(21,16,11,.9) 100%);
+  }
+  .shot-cap{
+    position:absolute; left:0; right:0; bottom:0; z-index:1;
+    padding:clamp(20px,5vw,30px) var(--pad);
+  }
+  .shot-cap .wrap{padding:0;}
+  .shot-cap .lbl{
+    font-family:var(--eng); font-style:italic; font-size:.82rem; letter-spacing:.16em;
+    text-transform:uppercase; color:var(--brass-hi); display:block; margin-bottom:7px;
+  }
+  .shot-cap p{font-family:var(--serif); font-weight:400; font-size:clamp(1rem,3.8vw,1.14rem); line-height:1.5; color:#FBF6EA; max-width:34ch; text-shadow:0 2px 16px rgba(0,0,0,.6);}
 
-/* premium fold */
-details.fold{margin-top:18px;border:1px solid var(--line);border-radius:16px;background:rgba(255,255,255,.025);overflow:hidden;}
-details.fold>summary{list-style:none;cursor:pointer;padding:15px 18px;display:flex;align-items:center;justify-content:space-between;gap:12px;color:var(--gold2);font-weight:700;font-size:13.3px;letter-spacing:.01em;}
-details.fold>summary::-webkit-details-marker{display:none;}
-details.fold>summary::after{content:"+";font-family:var(--eng);font-size:22px;color:var(--gold2);line-height:1;}
-details.fold[open]>summary::after{content:"\2013";}
-details.fold .fold-body{padding:2px 18px 20px;}
-details.fold .fold-body>*:first-child{margin-top:0;}
+  /* ---------------- field note ---------------- */
+  .fn{
+    background:linear-gradient(168deg, var(--char), var(--char-2));
+    border:1px solid var(--line-2); border-radius:var(--r);
+    overflow:hidden;
+  }
+  .fn-row{
+    display:grid; grid-template-columns:84px 1fr; gap:14px; align-items:baseline;
+    padding:clamp(17px,4vw,21px) clamp(20px,4.6vw,26px);
+    border-bottom:1px solid var(--line);
+  }
+  .fn-row:last-child{border-bottom:0;}
+  .fn-row .k{
+    font-family:var(--serif); font-weight:600; font-size:.98rem; color:var(--brass-hi);
+    letter-spacing:.04em;
+  }
+  .fn-row.alert .k{color:var(--blue);}
+  .fn-row .v{font-size:.95rem; line-height:1.65; color:var(--ivory-dim);}
+  .fn-row.alert .v{color:var(--ivory);}
+  @media(max-width:430px){
+    .fn-row{grid-template-columns:1fr; gap:5px;}
+    .fn-row .k{font-size:.78rem; letter-spacing:.16em; text-transform:uppercase;}
+  }
+  .fn-note{margin-top:18px; font-size:.92rem; color:var(--muted); line-height:1.7; letter-spacing:.01em;}
 
-/* working compare slider */
-.compare{position:relative;overflow:hidden;border-radius:20px;min-height:446px;border:1px solid var(--line2);background:#100B07;user-select:none;touch-action:none;box-shadow:0 30px 80px -56px #000;}
-.compare-layer{position:absolute;inset:0;display:flex;flex-direction:column;justify-content:center;padding:30px 22px 26px;}
-.compare-layer.before{background:radial-gradient(circle at 18% 14%,rgba(231,192,117,.08),transparent 42%),linear-gradient(160deg,#1C130D,#0B0806);}
-.compare-layer.after{background:linear-gradient(165deg,#FFF8ED,#EADCC4);color:#1B110A;clip-path:inset(0 0 0 var(--pos));}
-.compare-handle{position:absolute;top:0;bottom:0;left:var(--pos);width:2px;background:var(--gold2);transform:translateX(-1px);z-index:4;box-shadow:0 0 22px rgba(231,192,117,.6);pointer-events:none;}
-.compare-handle::after{content:"\2194";position:absolute;top:50%;left:50%;transform:translate(-50%,-50%);width:44px;height:44px;border-radius:50%;display:grid;place-items:center;background:linear-gradient(135deg,#A66F2E,#E2B766);color:#120B06;font-weight:800;font-size:18px;box-shadow:0 16px 40px -18px rgba(231,192,117,.9);}
-.compare.is-focus .compare-handle::after{outline:2px solid #FFF7EA;outline-offset:3px;}
-.compare-range{position:absolute;inset:0;display:block;width:100%;height:100%;margin:0;padding:0;border:0;background:transparent;opacity:0;pointer-events:none;}
-.compare-hint{margin-top:14px;display:flex;align-items:center;justify-content:center;gap:9px;color:var(--muted);font-size:11px;letter-spacing:.06em;text-transform:uppercase;font-weight:700;}
+  /* ---------------- weplace-does cards ---------------- */
+  .does{display:grid; gap:13px;}
+  .does .dcard{display:grid; grid-template-columns:auto 1fr; gap:16px; align-items:start;}
+  .does .n{font-family:var(--eng); font-style:italic; font-size:1.6rem; color:var(--brass); line-height:1; padding-top:2px;}
+  .does h3{margin-bottom:6px;}
+  .does .ds{font-size:.94rem; color:var(--ivory-dim); line-height:1.65;}
 
-/* focus — "정리하면, Weplace가 맡는 일" 4 cards */
-.focusgrid{display:grid;grid-template-columns:1fr 1fr;gap:13px;margin-top:28px;}
-.focuscard{border:1px solid var(--line2);background:linear-gradient(160deg,rgba(40,26,16,.95),rgba(14,10,8,.96));border-radius:18px;padding:20px 18px;position:relative;overflow:hidden;}
-.focuscard::after{content:"";position:absolute;right:-36px;top:-36px;width:108px;height:108px;border-radius:999px;background:radial-gradient(circle,rgba(201,154,74,.12),transparent 62%);pointer-events:none;}
-.focuscard .fk{font-family:var(--eng);font-style:italic;color:var(--gold2);font-size:18px;}
-.focuscard .ft2{margin-top:8px;font-family:var(--serif);font-size:16px;color:var(--text);line-height:1.42;font-weight:500;}
-.focuscard .fd2{margin-top:7px;color:var(--text2);font-size:12.8px;line-height:1.6;}
+  /* ---------------- 30-day order ---------------- */
+  .order{display:grid; gap:0; margin-top:8px;}
+  .step{
+    position:relative; display:grid; grid-template-columns:38px 1fr; gap:16px;
+    padding:15px 0; align-items:center;
+  }
+  .step:not(:last-child)::after{
+    content:""; position:absolute; left:18px; top:34px; bottom:-15px; width:1px;
+    background:linear-gradient(var(--brass-deep), rgba(182,138,78,.15));
+  }
+  .step .sn{
+    width:38px; height:38px; flex:0 0 auto; border-radius:50%;
+    border:1px solid rgba(182,138,78,.4); background:rgba(182,138,78,.08);
+    display:flex; align-items:center; justify-content:center;
+    font-family:var(--eng); font-style:italic; font-size:1.06rem; color:var(--brass-hi);
+    position:relative; z-index:1;
+  }
+  .step.last .sn{background:var(--brass); color:var(--espresso); border-color:var(--brass);}
+  .step .st{font-size:.99rem; color:var(--ivory); line-height:1.55;}
+  .step.last .st{color:#FBF6EA; font-weight:500;}
 
-/* pre-check transition line */
-.chap-recap-section{padding:36px 0 6px;}
-.chap-recap{margin:0;text-align:center;font-family:var(--serif);font-weight:300;color:var(--text2);font-size:clamp(15.5px,4.3vw,18.5px);line-height:1.9;letter-spacing:.004em;}
-.chap-recap::before{content:"";display:block;width:30px;height:1px;background:var(--gold);opacity:.7;margin:0 auto 18px;}
-.chap-recap b{color:var(--gold2);font-weight:500;}
-.daylead{margin-top:18px;color:var(--text2);font-size:14.5px;line-height:1.8;}
+  /* ---------------- check / copy module ---------------- */
+  .check{
+    margin-top:clamp(34px,7vw,46px);
+    background:linear-gradient(168deg, rgba(36,27,18,.6), rgba(27,20,13,.5));
+    border:1px solid var(--line-2); border-radius:var(--r);
+    padding:clamp(24px,5.4vw,32px);
+  }
+  .check h3{font-size:1.2rem; color:var(--ivory); font-weight:600; margin-bottom:8px;}
+  .check .ck-lead{font-size:.94rem; color:var(--ivory-dim); line-height:1.7; margin-bottom:20px;}
+  .pills{display:grid; gap:10px;}
+  .pill{display:block; cursor:pointer;}
+  .pill input{position:absolute; opacity:0; width:0; height:0;}
+  .pill span{
+    display:flex; align-items:center; gap:12px;
+    padding:13px 16px; border-radius:12px;
+    border:1px solid var(--line-2); background:rgba(214,196,168,.03);
+    font-size:.94rem; color:var(--ivory-dim); line-height:1.5;
+    transition:border-color .25s, background .25s, color .25s;
+  }
+  .pill span::before{
+    content:""; flex:0 0 auto; width:19px; height:19px; border-radius:6px;
+    border:1.5px solid var(--muted); background:transparent;
+    transition:all .25s var(--ease); position:relative;
+  }
+  .pill input:checked + span{border-color:rgba(182,138,78,.5); background:rgba(182,138,78,.1); color:var(--ivory);}
+  .pill input:checked + span::before{
+    background:var(--brass); border-color:var(--brass);
+    box-shadow:inset 0 0 0 2px var(--char);
+  }
+  .pill input:focus-visible + span{outline:2px solid var(--brass-hi); outline-offset:2px;}
+  .pill .num{font-family:var(--eng); font-style:italic; color:var(--brass); margin-right:2px;}
 
-@media(max-width:560px){
-  .block{padding:64px 0;}
-  .chapintro{padding:58px 0 0;}
-  .focusgrid{grid-template-columns:1fr;}
-  .s3-card{grid-template-columns:26px 1fr;gap:12px;}
-  .compare{min-height:512px;}
-}
+  .ck-memo{margin-top:16px;}
+  .ck-memo label{display:block; font-size:.82rem; letter-spacing:.04em; color:var(--muted); margin-bottom:8px;}
+  .ck-memo textarea{
+    width:100%; min-height:84px; resize:vertical;
+    background:rgba(21,16,11,.5); border:1px solid var(--line-2); border-radius:12px;
+    padding:13px 15px; font-family:var(--sans); font-size:.94rem; line-height:1.7; color:var(--ivory);
+  }
+  .ck-memo textarea::placeholder{color:var(--muted);}
+  .ck-memo textarea:focus{outline:none; border-color:var(--brass);}
 
+  .copy-btn{
+    width:100%; margin-top:20px; cursor:pointer;
+    display:flex; align-items:center; justify-content:center; gap:10px;
+    background:var(--brass); color:var(--espresso);
+    font-family:var(--sans); font-weight:700; font-size:1rem;
+    border:none; padding:16px 24px; border-radius:999px;
+    box-shadow:0 16px 38px -18px rgba(182,138,78,.8);
+    transition:transform .35s var(--ease), background .25s;
+  }
+  .copy-btn:hover{transform:translateY(-2px); background:var(--brass-hi);}
+  .copy-btn:active{transform:translateY(0) scale(.99);}
+  .copy-btn svg{width:18px; height:18px;}
+  .copy-hint{margin-top:14px; font-size:.86rem; color:var(--muted); line-height:1.65; text-align:center;}
+  .copy-hint b{color:var(--brass-hi); font-weight:600;}
 
-/* ===== retouch v3: surface-vs-assets gap, direction, devices, signals ===== */
-.gap-section{background:linear-gradient(180deg,rgba(20,26,34,.32),rgba(10,8,6,.10));}
-.gap-grid{display:grid;gap:13px;margin-top:28px;}
-.gap-card{border:1px solid var(--line2);border-radius:18px;padding:21px 19px;background:linear-gradient(160deg,rgba(18,14,10,.96),rgba(11,9,7,.97));box-shadow:0 26px 64px -50px #000;}
-.gap-card .gap-label{font-size:11px;letter-spacing:.14em;text-transform:uppercase;font-weight:800;}
-.gap-card h3{margin-top:11px;font-family:var(--serif);font-weight:400;font-size:19px;line-height:1.42;}
-.gap-list{margin-top:14px;list-style:none;display:grid;gap:8px;}
-.gap-list li{position:relative;padding-left:16px;color:var(--text2);font-size:13.3px;line-height:1.5;font-weight:300;}
-.gap-list li::before{content:"";position:absolute;left:0;top:8px;width:6px;height:6px;border-radius:50%;}
-.gap-card.now{border-color:rgba(122,146,176,.30);}
-.gap-card.now .gap-label{color:#9DB4D0;}
-.gap-card.now h3{color:#C7D2E0;}
-.gap-card.now .gap-list li::before{background:#7E96B4;}
-.gap-card.real{border-color:rgba(201,154,74,.34);background:linear-gradient(160deg,rgba(40,26,15,.96),rgba(13,10,7,.97));}
-.gap-card.real .gap-label{color:var(--gold2);}
-.gap-card.real h3{color:var(--text);}
-.gap-card.real .gap-list li::before{background:var(--gold);}
-.gap-close{margin-top:20px;border-left:2px solid var(--gold);padding:13px 0 13px 16px;color:var(--text2);font-size:13.8px;line-height:1.78;}
-.gap-close b{color:var(--gold2);font-weight:500;}
-@media(min-width:560px){.gap-grid{grid-template-columns:1fr 1fr;}}
-.dir-emph{margin-top:22px;border:1px solid rgba(201,154,74,.34);border-radius:16px;background:linear-gradient(160deg,rgba(201,154,74,.12),rgba(255,255,255,.02));padding:18px 19px;font-family:var(--serif);font-size:clamp(16px,4.4vw,19px);line-height:1.7;color:var(--text);text-align:center;}
-.dir-emph b{color:var(--gold2);font-weight:600;}
-.name-callout{margin-top:20px;border-left:2px solid var(--gold);padding:13px 0 13px 16px;color:var(--text2);font-size:14px;line-height:1.78;}
-.devgrid{display:grid;gap:11px;margin-top:18px;}
-.devcard{border:1px solid var(--line);border-radius:15px;padding:15px 16px;background:rgba(255,255,255,.025);}
-.devcard .eng{display:block;font-family:var(--eng);font-style:italic;font-size:19px;color:var(--gold2);line-height:1.1;}
-.devcard .sub{display:block;margin-top:7px;color:var(--text2);font-size:13px;line-height:1.6;font-weight:300;}
-@media(min-width:560px){.devgrid{grid-template-columns:1fr 1fr;}}
-.signalgrid{display:grid;gap:11px;margin-top:26px;}
-.signalcard{border:1px solid var(--line2);border-radius:15px;padding:15px 17px;background:linear-gradient(160deg,rgba(34,22,13,.9),rgba(12,9,7,.95));display:grid;grid-template-columns:max-content 1fr;gap:14px;align-items:center;}
-.signalcard .sloc{font-size:11.5px;letter-spacing:.03em;color:var(--gold2);font-weight:800;white-space:nowrap;}
-.signalcard .scopy{font-family:var(--serif);font-size:13.6px;color:var(--text);line-height:1.5;font-weight:300;}
-@media(max-width:430px){.signalcard{grid-template-columns:1fr;gap:6px;}}
+  /* ---------------- next / CTA ---------------- */
+  .next{
+    text-align:center; padding:clamp(70px,13vw,110px) 0;
+    background:radial-gradient(120% 90% at 50% 0%, rgba(182,138,78,.1), transparent 60%);
+    border-top:1px solid var(--line);
+  }
+  .next .ch-no{justify-content:center;}
+  .next .ch-no::before{display:none;}
+  .next h2{font-size:clamp(1.55rem,6vw,2.1rem); color:#FBF6EA; line-height:1.4; max-width:18ch; margin:0 auto;}
+  .next h2 b{color:var(--brass-hi); font-weight:600;}
+  .next .desc{margin:18px auto 0; max-width:40ch; color:var(--ivory-dim); font-size:1.02rem; line-height:1.85; font-weight:300;}
+  .next .cta{
+    display:inline-flex; align-items:center; gap:11px; margin-top:clamp(32px,6vw,42px);
+    background:var(--brass); color:var(--espresso);
+    font-family:var(--sans); font-weight:700; font-size:1.04rem;
+    padding:17px 34px; border-radius:999px; text-decoration:none;
+    box-shadow:0 16px 40px -18px rgba(182,138,78,.8);
+    transition:transform .4s var(--ease), background .3s;
+  }
+  .next .cta:hover{transform:translateY(-3px); background:var(--brass-hi);}
+  .next .cta svg{width:18px; height:18px;}
 
-/* ===== retouch v4: real-photo before/after, micro-diff, evidence strip ===== */
-.compare--photo{min-height:clamp(440px,118vw,600px);}
-.compare--photo .compare-layer{padding:0!important;background-color:#0e0b08;background-size:cover!important;background-position:50% 42%!important;background-repeat:no-repeat;}
-.cmp-pin{position:absolute;top:13px;z-index:4;font-size:10px;letter-spacing:.13em;text-transform:uppercase;font-weight:800;padding:5px 11px;border-radius:999px;}
-.pin-l{left:13px;background:rgba(18,24,33,.62);color:#cfe0f2;border:1px solid rgba(150,175,205,.34);}
-.pin-r{right:13px;background:rgba(38,25,14,.62);color:var(--gold2);border:1px solid rgba(201,154,74,.4);}
-.compare-cap{position:absolute;left:0;right:0;bottom:0;z-index:4;padding:34px 14px 13px;background:linear-gradient(transparent,rgba(7,5,3,.86));color:#fff;font-family:var(--serif);font-weight:300;font-size:12.5px;line-height:1.5;text-align:center;letter-spacing:.01em;}
-.diff4{display:grid;grid-template-columns:1fr 1fr;gap:9px;margin-top:16px;}
-.diff-item{border:1px solid var(--line2);border-radius:13px;padding:13px;background:rgba(255,255,255,.022);display:grid;grid-template-columns:max-content 1fr;gap:11px;align-items:start;}
-.diff-item .dn{font-family:var(--eng);font-style:italic;color:var(--gold2);font-size:16px;line-height:1.05;}
-.diff-item .dx b{display:block;color:var(--text);font-size:13px;font-weight:600;}
-.diff-item .dx span{display:block;margin-top:3px;color:var(--text2);font-size:12px;line-height:1.45;font-weight:300;}
-.diff-foot{margin-top:14px;border-left:2px solid var(--gold);padding:11px 0 11px 15px;color:var(--text2);font-size:13.5px;line-height:1.7;}
-.evid{margin-top:24px;}
-.evid-head{font-size:12.5px;color:var(--gold2);font-weight:700;margin-bottom:12px;line-height:1.5;}
-.evid-grid{display:grid;grid-template-columns:1fr 1fr;gap:10px;}
-.evid-card{position:relative;margin:0;height:188px;border-radius:14px;overflow:hidden;border:1px solid var(--line2);background-color:#0e0b08;background-size:cover;background-position:50% 40%;}
-.evid-card figcaption{position:absolute;left:0;right:0;bottom:0;padding:26px 12px 11px;background:linear-gradient(transparent,rgba(7,5,3,.9));}
-.evid-card figcaption b{display:block;color:#fff;font-family:var(--serif);font-size:13.5px;font-weight:500;}
-.evid-card figcaption span{display:block;margin-top:2px;color:var(--gold2);font-size:11px;letter-spacing:.02em;}
-@media(max-width:430px){.diff4{grid-template-columns:1fr;}}
+  /* ---------------- footer ---------------- */
+  footer{background:var(--espresso-2); border-top:1px solid var(--line); padding:46px 0; text-align:center;}
+  .brandmark{font-family:var(--eng); font-weight:600; letter-spacing:.28em; color:var(--brass-hi); font-size:1.05rem; text-transform:uppercase;}
+  .signoff{font-family:var(--eng); font-style:italic; color:var(--ivory-dim); margin-top:6px; font-size:1.06rem; letter-spacing:.04em;}
+  footer .tag{margin-top:16px; font-size:.8rem; line-height:1.7; color:var(--muted); max-width:40ch; margin-left:auto; margin-right:auto;}
 
-/* ===== final typography pass: orphan control ===== */
-h1,h2,h3,.dir-emph{text-wrap:pretty;}
-.wrap p,.wrap li,.wrap b,.wrap span,.wrap figcaption,
-.ch-sum,.chap-recap,.gap-close,.diff-foot,.name-callout,.cmp-foot,.compare-cap,
-.surface-note,.name-note,.s3-note,.fresh-tagline,.compare-note{text-wrap:pretty;}
+  /* ---------------- modal ---------------- */
+  .modal-overlay{
+    position:fixed; inset:0; z-index:100; padding:22px;
+    background:rgba(11,8,5,.74); -webkit-backdrop-filter:blur(5px); backdrop-filter:blur(5px);
+    display:flex; align-items:center; justify-content:center;
+    opacity:0; visibility:hidden; transition:opacity .35s ease, visibility .35s;
+  }
+  .modal-overlay.open{opacity:1; visibility:visible;}
+  .modal{
+    background:linear-gradient(170deg, var(--cream), var(--cream-2));
+    border:1px solid var(--cream-line); border-top:3px solid var(--brass);
+    border-radius:20px; padding:clamp(26px,5vw,36px);
+    max-width:460px; width:100%; text-align:center;
+    box-shadow:0 40px 90px -30px rgba(0,0,0,.6);
+    transform:translateY(16px) scale(.98); transition:transform .4s var(--ease);
+  }
+  .modal-overlay.open .modal{transform:none;}
+  .modal .m-icon{width:54px; height:54px; margin:0 auto 16px; border-radius:50%; background:rgba(182,138,78,.16); display:grid; place-items:center;}
+  .modal .m-icon svg{width:27px; height:27px; stroke:var(--brass-deep); fill:none; stroke-width:2.4; stroke-linecap:round; stroke-linejoin:round;}
+  .modal h3{font-family:var(--serif); font-weight:600; color:var(--cream-ink); font-size:1.34rem; margin-bottom:10px;}
+  .modal p{color:var(--cream-ink-soft); font-size:.96rem; line-height:1.75;}
+  .modal p b{color:var(--cream-ink); font-weight:600;}
+  .modal textarea{
+    width:100%; min-height:150px; margin-top:18px; resize:vertical;
+    background:#fff; border:1px solid var(--cream-line); border-radius:12px;
+    padding:14px; font-family:var(--sans); font-size:.9rem; line-height:1.7; color:var(--cream-ink);
+    white-space:pre-wrap;
+  }
+  .modal textarea:focus{outline:none; border-color:var(--brass);}
+  .modal-actions{display:flex; gap:10px; margin-top:18px;}
+  .modal-actions button{flex:1; cursor:pointer; border-radius:999px; padding:13px 18px; font-family:var(--sans); font-weight:600; font-size:.98rem; transition:all .25s ease;}
+  .btn-ghost{background:transparent; border:1px solid var(--cream-line); color:var(--cream-ink-soft);}
+  .btn-ghost:hover{border-color:var(--brass); color:var(--cream-ink);}
+  .btn-solid{background:var(--cream-ink); border:1px solid var(--cream-ink); color:var(--cream);}
+  .btn-solid:hover{background:#1d1610;}
+
+  /* ---------------- reveal ---------------- */
+  .r{opacity:0; transform:translateY(22px); transition:opacity .9s var(--ease), transform .9s var(--ease);}
+  .r.in{opacity:1; transform:none;}
+  .r.d1{transition-delay:.08s;} .r.d2{transition-delay:.16s;} .r.d3{transition-delay:.24s;} .r.d4{transition-delay:.32s;}
+
+  @media (prefers-reduced-motion: reduce){
+    html{scroll-behavior:auto;}
+    .r{opacity:1 !important; transform:none !important; transition:none !important;}
+    .ba-handle.is-nudge .ba-grip{animation:none !important;}
+    .modal-overlay,.modal{transition:none !important;} .modal{transform:none !important;}
+    *{scroll-behavior:auto !important;}
+  }
 </style>
 </head>
 <body>
 
-<!-- HERO -->
-<section class="hero" id="top">
-  <div class="wrap">
-    <div class="brandline reveal in">COFFEE829 · Brand Diagnosis</div>
-    <h1 class="reveal in d1">829는 숫자가 아니라<br>시작일입니다.<br><span>이제, 브랜드로 읽힐&nbsp;차례입니다.</span></h1>
-    <p class="sub reveal in d2">2012년 8월 29일, 교대에서 시작한 이름.<br>그 시간과 로스팅 기준이 첫 화면에서 그대로 읽히게 만드는 작업입니다.</p>
-    <div class="tags reveal in d3">
-      <span class="tag">2012.08.29 시작</span><span class="tag">15년 운영</span><span class="tag">3개 직영점</span><span class="tag">대표 직접 로스팅</span><span class="tag">서초점 확장</span>
-    </div>
-    <div class="hero-cta reveal in d3">
-      <a href="#summary3" class="btn">3분 요약 먼저 보기</a>
-      <a href="#check" class="btn ghost">우선순위 바로 체크</a>
-    </div>
-    <div class="scrollcue reveal in d3"><i></i>Scroll</div>
+<!-- =================== TOP BAR =================== -->
+<div class="topbar">
+  <div class="row">
+    <span class="tb-brand"><b>Weplace</b> Diagnostic</span>
+    <a class="tb-link" href="#next">Next Meeting</a>
   </div>
-</section>
+</div>
 
-<!-- 3-MINUTE SUMMARY -->
-<section class="summary3" id="summary3">
-  <div class="wrap">
-    <div class="s3-head reveal">
-      <div class="kicker">3-Minute Read</div>
-      <h2>3분만 읽어도,<br>오늘 볼 기준은 정리됩니다.</h2>
-    </div>
-    <div class="s3-grid">
-      <div class="s3-card reveal d1"><div class="s3-no">01</div><div><b>829는 숫자가 아니라 시작일입니다.</b><span>2012년 8월 29일, 교대에서 시작된 브랜드의 시간입니다.</span></div></div>
-      <div class="s3-card reveal d2"><div class="s3-no">02</div><div><b>이미 가진 자산은 충분합니다.</b><span>교대 15년, 남부 9년, 서초 신규, 로스팅 랩실이 있습니다.</span></div></div>
-      <div class="s3-card reveal d3"><div class="s3-no">03</div><div><b>이제 필요한 건 읽히는 순서입니다.</b><span>더 많이 보이는 것보다, 선택할 이유가 먼저 보여야 합니다.</span></div></div>
-    </div>
-    <p class="s3-note reveal d3">아래는 긴 제안서가 아니라, 다음 통화에서 무엇부터 정리할지 확인하는 진단서입니다.</p>
-    <div class="reveal d3" style="margin-top:30px;"><nav class="chaprail" aria-label="진단서 진행"><a href="#ch1"><span class="cr-no">01</span><span class="cr-label">가진 것</span></a><span class="cr-sep"></span><a href="#ch2"><span class="cr-no">02</span><span class="cr-label">읽히는 방식</span></a><span class="cr-sep"></span><a href="#ch3"><span class="cr-no">03</span><span class="cr-label">실행 순서</span></a></nav></div>
-  </div>
-</section>
-
-<div class="hr"></div>
-
-<!-- ===================== CHAPTER 01 ===================== -->
-<section class="chapintro" id="ch1">
-  <div class="wrap">
-    <div class="reveal"><nav class="chaprail" aria-label="진단서 진행"><a href="#ch1" class="active"><span class="cr-no">01</span><span class="cr-label">가진 것</span></a><span class="cr-sep"></span><a href="#ch2"><span class="cr-no">02</span><span class="cr-label">읽히는 방식</span></a><span class="cr-sep"></span><a href="#ch3"><span class="cr-no">03</span><span class="cr-label">실행 순서</span></a></nav></div>
-    <div class="reveal d1">
-      <div class="ch-eyebrow">Chapter 01</div>
-      <h2>지금 커피829가 가진 것</h2>
-      <div class="ch-sum">829라는 이름 안에는 이미 15년의 시간과 직영 운영력, 직접 볶아온 기준이 들어 있습니다.</div>
+<!-- =================== HERO =================== -->
+<header class="hero">
+  <div class="hero-inner">
+    <span class="hero-eyebrow">COFFEE829 · 브랜드 표면 진단</span>
+    <h1>“829는 숫자가 아니라<br><em>시작일</em>입니다.”</h1>
+    <p class="hero-sub">커피829는 온라인으로 새로 만들 브랜드가 아니라, 이미 오프라인에서 검증된 브랜드입니다. 서초점은 그 브랜드가 앞으로 어떻게 읽힐지 보여주는 기준점입니다.</p>
+    <div class="hero-cta">
+      <a class="btn btn-cream" href="#snapshot">
+        3분 요약 보기
+        <svg viewBox="0 0 24 24" fill="none" aria-hidden="true"><path d="M12 5v14M6 13l6 6 6-6" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></svg>
+      </a>
+      <a class="btn btn-blue" href="#field">
+        현장 진단 보기
+        <svg viewBox="0 0 24 24" fill="none" aria-hidden="true"><path d="M5 12h14M13 6l6 6-6 6" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></svg>
+      </a>
     </div>
   </div>
-</section>
+</header>
 
-<!-- 829 naming story -->
-<section class="block name-story" id="name-story">
+<!-- =================== CH 01 — EXECUTIVE SNAPSHOT =================== -->
+<section class="chapter" id="snapshot">
   <div class="wrap">
-    <div class="name-card reveal">
-      <div class="name-hero">
-        <div class="name-mark">829</div>
-        <div class="name-copy">
-          <div class="kicker">Name Story</div>
-          <h2>829는 숫자가 아니라,<br>2012년 8월 29일의 시작입니다.</h2>
-          <p>단순한 카페명이 아니라, 교대에서 시작한 날짜와 15년의 시간, 직접 볶아온 기준이 들어 있는 이름입니다.</p>
-        </div>
+    <div class="ch-head r">
+      <div class="ch-no"><span>Chapter</span> <b>01</b></div>
+      <h2 class="ch-title">3분 요약, 오늘 확인할 기준</h2>
+      <p class="lead">오늘 통화에서 같이 볼 지점을 먼저 세 가지로 정리합니다. 길게 읽지 않아도 되는 요약입니다.</p>
+    </div>
+
+    <div class="stack">
+      <div class="ccard r d1">
+        <span class="cc-no">01</span>
+        <h3>가진 자산은 충분합니다</h3>
+        <p>2012년 시작, 15년 운영, 3개 직영, 로스팅 랩.</p>
       </div>
-      <div class="name-callout">829는 숫자가 아니라 시작일입니다. 하지만 이 이야기가 외관과 첫인상에서 보이지 않으면, 처음 보는 사람은 829를 가격형 커피 브랜드처럼 읽을 수 있습니다.</div>
-      <div class="devgrid">
-        <div class="devcard"><span class="eng">Since Aug 29, 2012</span><span class="sub">829가 숫자가 아니라 시작일로 읽히게 만드는 문장입니다.</span></div>
-        <div class="devcard"><span class="eng">Daily Roastery since 2012</span><span class="sub">고급화보다 “매일 마시는 기준 있는 커피”로 포지셔닝합니다.</span></div>
-        <div class="devcard"><span class="eng">Roasted by the Founder</span><span class="sub">대표 직접 로스팅을 선택 이유로 바꿉니다.</span></div>
-        <div class="devcard"><span class="eng">3 Direct Stores</span><span class="sub">교대·남부·서초가 하나의 직영 브랜드로 읽히게 만듭니다.</span></div>
+      <div class="ccard r d2">
+        <span class="cc-no">02</span>
+        <h3>지금은 애매하게 읽힙니다</h3>
+        <p>저가커피와 맛있는 로스터리 사이, 포지션이 또렷하지 않습니다.</p>
       </div>
-      <div class="name-note"><b>정리 방향:</b> 새 이름을 만드는 일이 아니라, 이미 가진 이름 안의 시간을 바로 읽히게 만드는 일입니다.</div>
+      <div class="ccard blue r d3">
+        <span class="cc-no">03</span>
+        <h3>서초점이 기준점입니다</h3>
+        <p>가맹 전에, 반복 가능한 브랜드 표준을 먼저 만들 매장입니다.</p>
+      </div>
+    </div>
+
+    <!-- signature thread : 829 = 시작일 -->
+    <div class="thread r d2">
+      <div class="thread-line">
+        <span class="node"><b>2012</b><i>교대본점</i></span>
+        <span class="node"><b>2017</b><i>남부터미널</i></span>
+        <span class="node now"><b>Now</b><i>서초점</i></span>
+      </div>
+      <p class="thread-cap"><b>829</b> — 2012년 8월 29일에 시작된 시간.</p>
     </div>
   </div>
 </section>
 
-<!-- call summary -->
-<section class="block" id="diagnosis">
+<!-- =================== CH 02 — SURFACE GAP =================== -->
+<section class="chapter" id="gap">
   <div class="wrap">
-    <div class="kicker reveal">Call Summary</div>
-    <h2 class="reveal d1">통화에서 확인된<br>COFFEE829의 현재 위치</h2>
-    <p class="note reveal d2" style="margin-top:18px;">온라인에서 새로 만들 브랜드가 아니라, 이미 오프라인에서 검증된 이름입니다. 이번 진단은 그 신뢰가 첫 화면에서 바로 읽히는지 보는 작업입니다.</p>
-    <div class="summary">
-      <div class="item reveal"><div class="num">01</div><div class="tt">2012.08.29 시작</div><div class="ds">829가 단순 숫자가 아니라 브랜드의 시작일이 되는 지점.</div></div>
-      <div class="item reveal"><div class="num">15</div><div class="tt">교대점 15년 운영</div><div class="ds">경쟁이 많은 상권에서 오래 버틴 시작점.</div></div>
-      <div class="item reveal"><div class="num">09</div><div class="tt">남부터미널점 9년</div><div class="ds">한 매장이 아닌 운영력의 검증.</div></div>
-      <div class="item reveal"><div class="num">NEW</div><div class="tt">서초점 신규 오픈</div><div class="ds">브랜드가 다음 동선으로 확장되는 지점.</div></div>
-      <div class="item reveal"><div class="num">03</div><div class="tt">3개 직영 매장</div><div class="ds">가맹 이전에 먼저 보이는 직영 브랜드 신호.</div></div>
-      <div class="item reveal"><div class="num">LAB</div><div class="tt">로스팅 작업실</div><div class="ds">맛있다는 말보다 강한 품질 기준.</div></div>
-      <div class="item reveal"><div class="num">264</div><div class="tt">방문자리뷰</div><div class="ds">교대본점에 이미 쌓인 고객 신뢰.</div></div>
-      <div class="item reveal"><div class="num">04</div><div class="tt">프리미엄 4종 블렌딩</div><div class="ds">원두 선정부터 로스팅까지 대표가 관리.</div></div>
+    <div class="ch-head r">
+      <div class="ch-no"><span>Surface Gap</span> <b>02</b></div>
+      <h2 class="ch-title">가진 것과 보이는 것 사이에 <b>간극</b>이 있습니다.</h2>
+      <p class="lead">없어서가 아니라, 이미 가진 것이 첫 표면에서 아직 다 읽히지 않는 상태입니다.</p>
     </div>
 
-    <div class="thesis-card reveal d3">
-      <div class="thesis-k">Founder Thesis</div>
-      <p>대표님이 스레드에 남긴 결론은 선명했습니다.</p>
-      <h3>“지금 커피 시장은<br>싸거나, 강한 브랜드가 있거나.”</h3>
-      <p>COFFEE829는 저가 경쟁으로만 설명될 브랜드가 아닙니다. 829라는 시작일, 3개 직영점, 로스팅 작업실이 <span>하나의 브랜드 신호</span>로 읽혀야 하는 시점입니다.</p>
-    </div>
-
-    <details class="fold reveal d3">
-      <summary>이미 가진 자산과 더 선명해질 화면 — 자세히</summary>
-      <div class="fold-body">
-        <div class="duo">
-          <div class="panel">
-            <div class="label">Already Built</div>
-            <h3>이미 가진 자산</h3>
-            <ul class="clean">
-              <li>829라는 시작일이 있는 이름</li>
-              <li>교대점 15년 · 남부터미널점 9년 운영</li>
-              <li>서초점 신규 확장 · 3개 직영 매장</li>
-              <li>자체 로스팅 작업실 · 4종 프리미엄 블렌딩</li>
-              <li>납품 경험과 리뷰 신뢰</li>
-              <li>대표님의 시장 관점</li>
-            </ul>
-          </div>
-          <div class="panel gap">
-            <div class="label">To Be Clear</div>
-            <h3>더 선명해질 화면</h3>
-            <ul class="clean">
-              <li>829가 숫자가 아니라 시작일로 읽히는가</li>
-              <li>3개 지점이 하나의 브랜드로 읽히는가</li>
-              <li>서초점이 왜 생겼는지 보이는가</li>
-              <li>로스터리 브랜드로 인식되는가</li>
-              <li>주변 회사원이 방문할 이유가 보이는가</li>
-              <li>스레드 기록이 신뢰 자산으로 쓰이는가</li>
-            </ul>
-          </div>
-        </div>
+    <div class="grid-2">
+      <div class="dcard r d1">
+        <span class="chip gap">현재 첫인상</span>
+        <ul class="dlist gap">
+          <li>중저가형 테이크아웃 카페처럼 읽힐 수 있음</li>
+          <li>가격 중심의 매장처럼 보임</li>
+          <li>이름은 보이지만, 왜 829인지 알기 어려움</li>
+          <li>로스팅과 15년 운영이 첫눈에 드러나지 않음</li>
+        </ul>
       </div>
-    </details>
+      <div class="dcard r d2">
+        <span class="chip asset">실제 자산</span>
+        <ul class="dlist asset">
+          <li>2012년 8월 29일 시작</li>
+          <li>교대본점 15년 운영</li>
+          <li>남부터미널점 9년 운영</li>
+          <li>서초점 신규 오픈</li>
+          <li>3개 직영점 · 대표 직접 로스팅 · 로스팅 랩실</li>
+        </ul>
+      </div>
+    </div>
+
+    <div class="recover r d1">
+      커피829의 문제는 브랜드가 없는 것이 아닙니다. <b>가진 시간과 기준이 아직 첫 표면에서 충분히 읽히지 않는 것</b>입니다.
+      <details class="more">
+        <summary><span class="pm"></span> 이 간극을 좁히면 무엇이 달라지나</summary>
+        <div class="more-body">같은 매장, 같은 메뉴여도 처음 보는 사람의 기억이 달라집니다. ‘가격 때문에 들르는 곳’이 아니라 ‘맛과 기준이 있는 곳’으로 남고, 재방문과 추천의 이유가 바뀝니다. 큰 공사 없이, 첫 화면에서 읽히는 신호부터 정리하면 됩니다.</div>
+      </details>
+    </div>
+
+    <!-- before / after slider -->
+    <div class="ba r d1">
+      <p class="mini-kicker" style="margin-bottom:18px;">First Impression</p>
+      <div class="ba-frame" id="baFrame">
+        <!-- sizer (invisible, sets height = 더 긴 쪽) -->
+        <div class="ba-sizer" aria-hidden="true">
+          <span class="ba-tag after">After · 정리 후</span>
+          <h4 class="ba-h">맛으로 다시 찾는 데일리 로스터리</h4>
+          <ul class="ba-list">
+            <li>2012년 8월 29일 시작한 브랜드</li>
+            <li>교대 15년, 3개 직영의 운영력</li>
+            <li>대표 직접 로스팅</li>
+            <li>서초점은 다음 브랜드 기준점</li>
+            <li>매일 마시는 커피에 15년의 기준</li>
+          </ul>
+        </div>
+        <!-- before (base) -->
+        <div class="ba-pane ba-before">
+          <span class="ba-tag before">Before · 지금</span>
+          <h4 class="ba-h">근처라서 가는 카페</h4>
+          <ul class="ba-list">
+            <li>중저가형 테이크아웃 이미지</li>
+            <li>가격과 접근성이 먼저 보임</li>
+            <li>829의 의미가 잘 보이지 않음</li>
+            <li>로스팅 기준이 첫인상에서 덜 읽힘</li>
+          </ul>
+        </div>
+        <!-- after (clipped) -->
+        <div class="ba-pane ba-after" id="baAfter">
+          <span class="ba-tag after">After · 정리 후</span>
+          <h4 class="ba-h">맛으로 다시 찾는 데일리 로스터리</h4>
+          <ul class="ba-list">
+            <li>2012년 8월 29일 시작한 브랜드</li>
+            <li>교대 15년, 3개 직영의 운영력</li>
+            <li>대표 직접 로스팅</li>
+            <li>서초점은 다음 브랜드 기준점</li>
+            <li>매일 마시는 커피에 15년의 기준</li>
+          </ul>
+        </div>
+        <button class="ba-handle" id="baHandle" type="button" role="slider"
+          aria-label="Before와 After 비교 슬라이더" aria-valuemin="0" aria-valuemax="100" aria-valuenow="50">
+          <span class="ba-grip" aria-hidden="true"></span>
+        </button>
+      </div>
+      <p class="ba-cap">차이는 간판이 예쁘냐의 문제가 아니라, 처음 보는 사람이 어떤 브랜드로 기억하느냐의 문제입니다.</p>
+      <p class="ba-hint" aria-hidden="true">좌우로 드래그하면 차이가 보입니다</p>
+    </div>
   </div>
 </section>
 
-<!-- brand map -->
-<section class="block">
+<!-- =================== STATEMENT — 고급화 ≠ 기준 =================== -->
+<section class="statement">
   <div class="wrap">
-    <div class="kicker reveal">Brand Map</div>
-    <h2 class="reveal d1">세 매장은 따로 있는 지점이 아니라,<br>하나의 브랜드가 커지는 순서입니다.</h2>
-    <div class="rolemap">
-      <div class="role reveal"><div class="rno">01</div><div><div class="rt">교대점 = 뿌리</div><div class="rd">15년 동안 쌓인 지역 신뢰와 브랜드의 출발점.</div></div></div>
-      <div class="role reveal"><div class="rno">02</div><div><div class="rt">남부터미널점 = 검증</div><div class="rd">한 매장에만 의존하지 않는 운영력의 증거.</div></div></div>
-      <div class="role reveal"><div class="rno">03</div><div><div class="rt">서초점 = 확장</div><div class="rd">새로운 회사원 동선과 다음 브랜드 인식의 접점.</div></div></div>
-      <div class="role reveal"><div class="rno">04</div><div><div class="rt">로스팅 작업실 = 기준</div><div class="rd">원두·납품·가맹사업까지 연결될 수 있는 품질 중심.</div></div></div>
+    <h2 class="r">고급스럽게 보이는 것보다,<br>기준 있게 보이는 것이 먼저입니다.</h2>
+    <div class="body r d1">
+      <p>커피829의 지금 강점은 <b>대중성과 접근성</b>입니다.</p>
+      <p>이 장점을 버리고 갑자기 무거운 스페셜티 브랜드처럼 보이게 만들 필요는 없습니다.</p>
+      <p>중요한 건 가격형 카페처럼만 보이는 첫인상을 줄이고, ‘매일 마시기 좋은데 기준이 있는 로스터리’로 읽히게 하는 것입니다.</p>
+    </div>
+    <p class="pull r d2">커피829가 가야 할 방향은 <span class="o">저가 이미지 탈피</span>이지, <span class="x">과장된 고급화</span>가 아닙니다.</p>
+  </div>
+</section>
+
+<!-- =================== IMAGE BREAK — ROASTING =================== -->
+<section class="shot">
+  <div class="shot-img r">
+    <img src="coffee829roasting.jpg" alt="대표가 직접 로스팅하는 커피829 로스팅 랩" loading="lazy" />
+  </div>
+  <div class="shot-cap">
+    <div class="wrap">
+      <span class="lbl">Roasting Lab</span>
+      <p>대표가 직접 로스팅하는 랩. 이 기준이 첫 화면에서도 읽혀야 합니다.</p>
     </div>
   </div>
 </section>
 
-<!-- naver place surface -->
-<section class="block place-section" id="place-surface">
+<!-- =================== CH 03 — FIELD NOTE =================== -->
+<section class="chapter" id="field">
   <div class="wrap">
-    <div class="kicker reveal">Naver Place Surface</div>
-    <h2 class="reveal d1">교대본점 플레이스에는<br>이미 좋은 신호가 있습니다.</h2>
-    <p class="note reveal d2" style="margin-top:18px;">로고, 외관, 리뷰, 역세권 정보, 대표님 설명문이 이미 쌓여 있습니다. 이제 필요한 건 이 신호가 더 빨리 읽히게 만드는 일입니다.</p>
+    <div class="ch-head r">
+      <div class="ch-no"><span>Field Note</span> <b>03</b></div>
+      <h2 class="ch-title">서초점은 3호점이 아니라,<br><b>다음 브랜드 기준점</b>입니다.</h2>
+      <p class="lead">현장에서 본 그대로를 정리한 메모입니다. 지적이 아니라, 고객이 느끼는 감각 마찰을 모은 기록입니다.</p>
+    </div>
 
-    <div class="place-layout">
-      <div class="phone-frame reveal d1">
-        <img src="assets/coffee829-naverplace.png" alt="COFFEE829 교대본점 네이버플레이스 첫 화면">
+    <div class="fn r d1">
+      <div class="fn-row">
+        <span class="k">맛</span>
+        <span class="v">시그니처 라떼는 기억에 남음</span>
       </div>
-      <div class="place-cards">
-        <div class="place-card reveal d1">
-          <div class="pk">Visible Proof</div>
-          <h3>이미 보이는 신뢰</h3>
-          <p>방문자리뷰, 블로그리뷰, 교대역 접근성, 외관 사진은 이미 좋은 신호입니다.</p>
-          <div class="micro"><span>방문자리뷰 264</span><span>블로그리뷰 24</span><span>교대역 14번 출구 64m</span></div>
-        </div>
+      <div class="fn-row">
+        <span class="k">공간</span>
+        <span class="v">새 매장, 깔끔함, 약 40석, 2층 공간</span>
+      </div>
+      <div class="fn-row">
+        <span class="k">고객</span>
+        <span class="v">오후 3시 30분 기준 4팀, 평균 3~4명</span>
+      </div>
+      <div class="fn-row alert">
+        <span class="k">마찰</span>
+        <span class="v">쇼케이스 위생 신호, 음료 안내 소리, 복층 구조에서 음료 안내 방식, 음악 전달력 점검</span>
+      </div>
+      <div class="fn-row alert">
+        <span class="k">질문</span>
+        <span class="v">서초점 베이커리 카테고리 설정 이유, 배달 미운영 이유, 카페 검색 노출 점검</span>
+      </div>
+    </div>
+    <p class="fn-note r d1">작은 마찰을 줄이는 것만으로도, 같은 자산이 더 또렷하게 읽힙니다.</p>
+  </div>
+</section>
 
-        <div class="place-card reveal d2">
-          <div class="pk">Hidden Asset</div>
-          <h3>설명문 안에 들어 있는 진짜 자산</h3>
-          <p>2012년 시작, 2017년 직영 2호점, 2020년 로스팅 랩실. 이 흐름이 보이면 829는 직영 로스터리의 시간표가 됩니다.</p>
-          <div class="micro"><span>2012.08.29 시작</span><span>2017 직영 2호점</span><span>2020 로스팅 랩실</span><span>대표 직접 관리</span></div>
-        </div>
+<!-- =================== IMAGE BREAK — SEOCHO =================== -->
+<section class="shot">
+  <div class="shot-img r">
+    <img src="coffee829seocho.jpg" alt="커피829 서초점 — 거리 위의 매장 전경" loading="lazy" />
+  </div>
+  <div class="shot-cap">
+    <div class="wrap">
+      <span class="lbl">Seocho · The Standard</span>
+      <p>서초점 — 커피829가 앞으로 어떤 브랜드로 확장될지 보여주는 기준점.</p>
+    </div>
+  </div>
+</section>
 
-        <div class="place-card reveal d2">
-          <div class="pk">Bean Standard</div>
-          <h3>원두 정보는 맛 설명이 아니라 기준입니다.</h3>
-          <p>프리미엄 생두 4종 블렌딩은 메뉴 설명보다, 흔들리지 않는 맛의 기준으로 보여야 합니다.</p>
-          <details class="fold">
-            <summary>프리미엄 4종 블렌드 보기</summary>
-            <div class="fold-body">
-              <div class="bean-list">
-                <div class="bean"><b>Brazil</b><span>Yellow Bourbon</span></div>
-                <div class="bean"><b>Colombia</b><span>Supremo Tolima</span></div>
-                <div class="bean"><b>Costa Rica</b><span>Tarrazu</span></div>
-                <div class="bean"><b>Guatemala</b><span>Antigua</span></div>
-              </div>
-            </div>
+<!-- =================== CH 04 — BRAND SIGNALS + SEARCH/AI =================== -->
+<section class="chapter" id="signals">
+  <div class="wrap">
+    <div class="ch-head r">
+      <div class="ch-no"><span>Brand Signals</span> <b>04</b></div>
+      <h2 class="ch-title">큰 공사보다 먼저,<br>작은 브랜드 신호부터 넣습니다.</h2>
+      <p class="lead">지금 가진 자산을 첫 표면에서 읽히게 하는, 비용이 작고 빠른 신호들입니다.</p>
+    </div>
+
+    <div class="sig">
+      <div class="ccard r d1">
+        <span class="place">유리 시트</span>
+        <div class="signal en">Started on Aug 29, 2012</div>
+        <p>대표 직접 로스팅</p>
+      </div>
+      <div class="ccard r d2">
+        <span class="place">메뉴판 상단</span>
+        <div class="signal">매일 마시는 커피에,<br>15년의 기준을 담았습니다</div>
+      </div>
+      <div class="ccard blue r d1">
+        <span class="place">입간판</span>
+        <div class="signal">교대에서 시작한<br>15년 데일리 로스터리</div>
+      </div>
+      <div class="ccard r d2">
+        <span class="place">컵홀더 · 스티커</span>
+        <div class="signal en">829 is our starting date</div>
+      </div>
+      <div class="ccard span2 r d1">
+        <span class="place">굿즈</span>
+        <div class="signal">늑대 로고 텀블러는 컵홀더·스티커·원두 라벨 반응을 본 뒤 확장</div>
+      </div>
+    </div>
+
+    <!-- search / GEO / AI -->
+    <div style="margin-top:clamp(48px,9vw,72px);">
+      <div class="ch-head r" style="margin-bottom:clamp(24px,5vw,34px);">
+        <p class="mini-kicker">Search · GEO · AI</p>
+        <h2 class="ch-title" style="font-size:clamp(1.34rem,5.2vw,1.7rem);">검색과 AI도, 커피829를<br>어떻게 읽을지 정리해야 합니다.</h2>
+      </div>
+
+      <div class="stack">
+        <div class="dcard r d1">
+          <h3>서초점 업종 카테고리 확인</h3>
+          <p class="ds" style="color:var(--ivory-dim); font-size:.95rem; line-height:1.65;">베이커리인지 카페인지, 의도된 설정인지 먼저 확인합니다.</p>
+        </div>
+        <div class="dcard r d2">
+          <h3>카페 검색 노출 점검</h3>
+          <p class="ds" style="color:var(--ivory-dim); font-size:.95rem; line-height:1.65;">지도에서 카페로 검색했을 때 노출이 약하다면, 카테고리와 설명 구조를 점검합니다.</p>
+        </div>
+        <div class="dcard r d1">
+          <h3>네이버·구글 첫 문장 정리</h3>
+          <p class="ds" style="color:var(--ivory); font-size:.95rem; line-height:1.65;">“2012년 8월 29일 교대에서 시작한 직영 로스터리 브랜드.”</p>
+        </div>
+        <div class="dcard r d2">
+          <h3>AI 검색 인식 정리</h3>
+          <p class="ds" style="color:var(--ivory-dim); font-size:.95rem; line-height:1.65;">AI가 커피829를 ‘15년 직영 데일리 로스터리’로 설명할 근거를 구성합니다.</p>
+          <details class="more">
+            <summary><span class="pm"></span> 검색·AI 정리가 왜 중요한가</summary>
+            <div class="more-body">사람이 보는 첫 화면만큼, 지도·검색·AI가 읽는 ‘설명 문장’도 첫인상을 만듭니다. 흩어진 정보가 정리되면, 누가 검색하든 커피829를 같은 한 문장으로 설명하게 됩니다.</div>
           </details>
         </div>
       </div>
     </div>
-
-    <details class="fold reveal d3">
-      <summary>현재 플레이스 설명문 원문 정리 보기</summary>
-      <div class="fold-body">
-        <p class="note" style="margin:0;">현재 교대본점 설명문에는 2012년 8월 29일 시작, 2017년 직영 2호점, 2020년 로스팅 랩실로 이어지는 흐름과 대표 직접 관리 기준이 이미 적혀 있습니다. 이 순서가 첫 화면에서 먼저 보이면 829는 “15년 직영 로스터리 브랜드”로 읽힙니다.</p>
-      </div>
-    </details>
-
-    <div class="surface-note reveal d3"><b>정리 방향:</b> 더 길게 쓰는 것이 아니라, 사진·소식·소개문에서 “15년 직영 로스터리”로 먼저 읽히게 만드는 일입니다.</div>
   </div>
 </section>
 
-<!-- gap: surface vs assets (reality diagnosis) -->
-<section class="block gap-section" id="gap-surface">
+<!-- =================== CH 05 — WHAT WEPLACE DOES =================== -->
+<section class="chapter" id="weplace">
   <div class="wrap">
-    <div class="kicker reveal">Surface vs Assets</div>
-    <h2 class="reveal d1">지금 가장 큰 간극은,<br>가진 것과 보이는 것 사이에 있습니다.</h2>
-    <p class="note reveal d2" style="margin-top:18px;">브랜드가 없는 것이 아닙니다. 가진 시간과 기준이 외관과 첫 표면에서 아직 그렇게 읽히지 않을 뿐입니다.</p>
-    <div class="gap-grid">
-      <div class="gap-card now reveal d1">
-        <div class="gap-label">지금 보이는 첫인상</div>
-        <h3>중저가 동네 카페로<br>읽히기 쉬운 표면</h3>
-        <ul class="gap-list">
-          <li>빠르게 사 가는 테이크아웃 이미지</li>
-          <li>가격이 먼저 읽히는 간판</li>
-          <li>왜 829인지 드러나지 않는 이름</li>
-        </ul>
-      </div>
-      <div class="gap-card real reveal d2">
-        <div class="gap-label">실제 쌓여 있는 자산</div>
-        <h3>15년 직영 로스터리의<br>기준과 시간</h3>
-        <ul class="gap-list">
-          <li>2012년 시작 · 교대 15년 운영</li>
-          <li>3개 직영점 · 대표 직접 로스팅</li>
-          <li>로스팅 랩실 · 4종 블렌딩 기준</li>
-        </ul>
-      </div>
+    <div class="ch-head r">
+      <div class="ch-no"><span>What Weplace Does</span> <b>05</b></div>
+      <h2 class="ch-title">정리하면, Weplace가 맡는 일</h2>
+      <p class="lead">광고를 얹는 일이 아니라, 브랜드가 사람과 AI에게 더 정확히 읽히도록 표면과 구조를 정리하는 일입니다.</p>
     </div>
-    <div class="gap-close reveal d3">필요한 건 간판을 무조건 고급스럽게 바꾸는 일이 아니라, <b>왜 829가 의미 있는 이름인지</b>와 <b>왜 기준을 가진 로스터리인지</b>를 먼저 보이게 만드는 일입니다.</div>
-  </div>
-</section>
 
-<!-- direction: not luxury, but standard -->
-<section class="block dir-section" id="direction">
-  <div class="wrap">
-    <div class="kicker reveal">Direction</div>
-    <h2 class="reveal d1">고급스럽게 보이는 것보다,<br>기준 있게 보이는 것이 먼저입니다.</h2>
-    <p class="note reveal d2" style="margin-top:18px;">커피829의 지금 강점은 대중성과 접근성입니다. 이 장점을 버리고 갑자기 무거운 스페셜티 브랜드처럼 보일 필요는 없습니다.</p>
-    <p class="note reveal d2" style="margin-top:14px;">가격형 카페처럼 보이는 첫인상을 줄이고, “매일 마시기 좋은데 기준이 있는 로스터리”로 읽히게 만드는 일이 먼저입니다.</p>
-    <div class="dir-emph reveal d3">커피829가 가야 할 방향은 <b>저가 이미지 탈피</b>이지, <b>과장된 고급화</b>가 아닙니다.</div>
-  </div>
-</section>
-
-<!-- roasting image break -->
-<section class="imgbreak roasting">
-  <div class="caption">
-    <div class="kicker reveal">Roasting Standard</div>
-    <h2 class="reveal d1">맛있다는 말보다,<br>기준이 보이는 브랜드.</h2>
-    <p class="reveal d2">Brazil · Colombia · Costa Rica · Guatemala. 직접 고르고 볶는 기준이 단순 카페와 로스터리 브랜드를 가릅니다.</p>
-  </div>
-</section>
-
-<!-- closing quote of chapter 01 -->
-<section class="quote">
-  <div class="wrap">
-    <div class="mark reveal">“</div>
-    <h2 class="reveal d1">카페는 하루아침에<br>오래되지 않습니다.</h2>
-    <p class="reveal d2">15년 동안 같은 자리에 있었다는 건, 맛보다 먼저 신뢰가 쌓였다는 뜻입니다.<br><br>새로 보는 사람은 그 시간을 모릅니다. 그 시간을 짧게 이해시키는 장치가 필요합니다.</p>
-  </div>
-</section>
-
-<!-- seocho image break (bridge to chapter 02) -->
-<section class="imgbreak seocho">
-  <div class="caption">
-    <div class="kicker reveal">Seocho Flow</div>
-    <h2 class="reveal d1">교대의 신뢰를,<br>서초의 새로운 동선으로.</h2>
-    <p class="reveal d2">서초점은 하나 더 낸 매장이 아니라, 교대의 신뢰가 회사원 동선으로 옮겨가는 장면입니다.</p>
-  </div>
-</section>
-
-<!-- chapter 01 recap -->
-<section class="block chap-recap-section">
-  <div class="wrap">
-    <p class="chap-recap reveal">정리하면, 커피829는 이미 가진 것이 많은 브랜드입니다.<br>관건은 그 자산이 첫인상에서 얼마나 빨리 읽히느냐입니다.</p>
-  </div>
-</section>
-
-<!-- ===================== CHAPTER 02 ===================== -->
-<section class="chapintro" id="ch2">
-  <div class="wrap">
-    <div class="reveal"><nav class="chaprail" aria-label="진단서 진행"><a href="#ch1"><span class="cr-no">01</span><span class="cr-label">가진 것</span></a><span class="cr-sep"></span><a href="#ch2" class="active"><span class="cr-no">02</span><span class="cr-label">읽히는 방식</span></a><span class="cr-sep"></span><a href="#ch3"><span class="cr-no">03</span><span class="cr-label">실행 순서</span></a></nav></div>
-    <div class="reveal d1">
-      <div class="ch-eyebrow">Chapter 02</div>
-      <h2>왜 첫 화면 정리가 필요한가</h2>
-      <div class="ch-sum">같은 자산이라도, 보여주는 순서에 따라 다른 브랜드로 읽힙니다.</div>
-    </div>
-  </div>
-</section>
-
-<!-- WORKING before/after compare slider -->
-<section class="block place-compare-section" id="place-compare">
-  <div class="wrap">
-    <div class="kicker reveal">First Impression</div>
-    <h2 class="reveal d1">간판은 그대로 둡니다.<br>바뀐 건 네 군데뿐입니다.</h2>
-    <p class="note reveal d2" style="margin-top:18px;">지금 보시는 건 교대본점입니다. 핸들을 밀면, 같은 매장이 어떻게 다르게 읽히는지 보입니다.</p>
-    <div class="compare-shell reveal d2">
-      <div class="compare compare--photo" id="placeCompare" style="--pos:50%">
-        <div class="compare-layer before" style="background-image:url('assets/coffee829-gyodae-before.jpg')"></div>
-        <div class="compare-layer after" style="background-image:url('assets/coffee829-gyodae-after.jpg')"></div>
-        <span class="cmp-pin pin-l" aria-hidden="true">Before · 지금</span>
-        <span class="cmp-pin pin-r" aria-hidden="true">After · 정리 후</span>
-        <div class="compare-cap" aria-hidden="true">교대본점 · 2012.08.29 시작 · 15년 데일리 로스터리 · 자체 로스팅</div>
-        <div class="compare-handle" aria-hidden="true"></div>
-        <input class="compare-range" type="range" min="0" max="100" value="50" aria-label="교대본점 첫인상 전후 비교 슬라이더">
+    <div class="does">
+      <div class="dcard r d1">
+        <span class="n">1</span>
+        <div>
+          <h3>829 네이밍 스토리 정리</h3>
+          <p class="ds">숫자를 시작일과 브랜드 기억 장치로 바꿉니다.</p>
+        </div>
       </div>
-      <div class="compare-hint" aria-hidden="true">&#8592;&nbsp;&nbsp;밀어서 정리 전후를 비교해 보세요&nbsp;&nbsp;&#8594;</div>
-      <div class="compare-note"><b>핵심:</b> 새로 지은 게 아닙니다 — 같은 교대본점에서 네 군데만 손댔습니다.</div>
-      <div class="diff4 reveal d3">
-        <div class="diff-item"><span class="dn">01</span><div class="dx"><b>로고</b><span>옛 커피컵 → 늑대 마크</span></div></div>
-        <div class="diff-item"><span class="dn">02</span><div class="dx"><b>간판 한 줄</b><span>ESTD 2012 · ROASTERY · 자체 로스팅</span></div></div>
-        <div class="diff-item"><span class="dn">03</span><div class="dx"><b>첫 시선</b><span>할인 칠판·가격 배너를 한 칸 뒤로</span></div></div>
-        <div class="diff-item"><span class="dn">04</span><div class="dx"><b>빛</b><span>한낮 → 따뜻한 톤</span></div></div>
+      <div class="dcard r d2">
+        <span class="n">2</span>
+        <div>
+          <h3>서초점 브랜드 기준점화</h3>
+          <p class="ds">단순 3호점이 아니라, 반복 가능한 직영 모델로 정리합니다.</p>
+        </div>
       </div>
-      <div class="diff-foot reveal d3">가격도, 크기도, 메뉴도 그대로입니다. 바뀐 건 “무엇이 먼저 보이느냐”뿐입니다.</div>
-      <div class="evid reveal d3">
-        <div class="evid-head">교대 After는 상상이 아닙니다 — 다른 지점은 이미 이렇게 읽힙니다.</div>
-        <div class="evid-grid">
-          <figure class="evid-card" style="background-image:url('assets/coffee829-nambu.jpg')"><figcaption><b>남부터미널점</b><span>9년 · 검증점</span></figcaption></figure>
-          <figure class="evid-card" style="background-image:url('assets/coffee829-roastery.jpg')"><figcaption><b>신규 로스터리</b><span>최신 · 확장점</span></figcaption></figure>
+      <div class="dcard r d1">
+        <span class="n">3</span>
+        <div>
+          <h3>오프라인 감각 마찰 정리</h3>
+          <p class="ds">맛, 공간, 안내, 쇼케이스, 2층 동선의 작은 마찰을 줄입니다.</p>
+        </div>
+      </div>
+      <div class="dcard r d2">
+        <span class="n">4</span>
+        <div>
+          <h3>검색과 AI가 읽을 근거 정리</h3>
+          <p class="ds">사람뿐 아니라 AI도 커피829를 데일리 로스터리로 설명하게 만듭니다.</p>
         </div>
       </div>
     </div>
-    <details class="fold reveal d3">
-      <summary>흩어진 화면과 정리된 화면, 흐름도로도 보기</summary>
-      <div class="fold-body">
-        <p class="note" style="margin:0 0 16px;">정리된 화면은 보이는 순간 어떤 브랜드인지 먼저 읽힙니다.</p>
-        <div class="togglebox">
-          <div class="switch" role="tablist" aria-label="화면 상태 선택">
-            <button type="button" id="dimBtn" aria-pressed="true">흩어진 화면</button>
-            <button type="button" id="clearBtn" aria-pressed="false">정리된 화면</button>
-          </div>
-          <div class="flowgrid" id="flowGrid"></div>
-        </div>
-      </div>
-    </details>
   </div>
 </section>
 
-<!-- weplace lens -->
-<section class="block lens-section" id="weplace-lens">
+<!-- =================== IMAGE BREAK — DIAGNOSTIC =================== -->
+<section class="shot">
+  <div class="shot-img r">
+    <img src="coffee829diagnostic.jpg" alt="커피829 진단 점검 데스크 — 노트북, 노트, 커피" loading="lazy" />
+  </div>
+  <div class="shot-cap">
+    <div class="wrap">
+      <span class="lbl">30-Day Order</span>
+      <p>30일, 현장부터 정리하는 순서입니다.</p>
+    </div>
+  </div>
+</section>
+
+<!-- =================== 30-DAY + CHECK =================== -->
+<section class="chapter" id="plan">
   <div class="wrap">
-    <div class="kicker reveal">Weplace Lens</div>
-    <h2 class="reveal d1">상위노출보다 먼저,<br>선택할 이유가 보여야 합니다.</h2>
-    <p class="note reveal d2" style="margin-top:18px;">대표님이 받아온 흔한 마케팅 제안과 Weplace가 보는 지점의 차이입니다.</p>
-    <div class="lens-grid">
-      <div class="lens-card reveal d1">
-        <div class="lens-line"><div class="lens-mark x">X</div><div class="lens-text"><b>간판이 크면 브랜드가 보인다</b><span>크기보다 이름의 의미가 먼저 읽혀야 합니다.</span></div></div>
-        <div class="arrow"></div>
-        <div class="lens-line"><div class="lens-mark o">O</div><div class="lens-text"><b>이름의 의미가 읽혀야 브랜드로 기억된다</b><span>829가 왜 829인지 보일 때 다음에 다시 떠오릅니다.</span></div></div>
+    <div class="ch-head r">
+      <div class="ch-no"><span>30-Day Order</span> <b>·</b></div>
+      <h2 class="ch-title">30일, 현장부터 정리하는 순서</h2>
+      <p class="lead">한 번에 다 바꾸지 않습니다. 현장에서 확인할 수 있는 것부터, 순서대로 정리합니다.</p>
+    </div>
+
+    <div class="order r d1">
+      <div class="step"><span class="sn">1</span><span class="st">서초점 업종·카테고리 확인</span></div>
+      <div class="step"><span class="sn">2</span><span class="st">829 네이밍 첫 문장 정리</span></div>
+      <div class="step"><span class="sn">3</span><span class="st">시그니처 라떼와 대표 메뉴 정리</span></div>
+      <div class="step"><span class="sn">4</span><span class="st">현장 감각 마찰 개선 포인트 정리</span></div>
+      <div class="step"><span class="sn">5</span><span class="st">플레이스·구글·AI 설명 구조 반영</span></div>
+      <div class="step"><span class="sn">6</span><span class="st">컵홀더·스티커·원두 라벨 소량 테스트</span></div>
+      <div class="step last"><span class="sn">7</span><span class="st">다음 통화에서 실행 순서 확정</span></div>
+    </div>
+
+    <!-- check / copy -->
+    <div class="check r d1">
+      <h3>먼저 시작할 항목</h3>
+      <p class="ck-lead">먼저 손대고 싶은 항목을 선택해 복사한 뒤, 카카오톡으로 보내주시면 다음 통화에서 그 순서대로 실행안을 잡겠습니다.</p>
+      <div class="pills" role="group" aria-label="먼저 시작할 항목">
+        <label class="pill"><input type="checkbox" name="start" value="서초점 업종·카테고리 확인"><span><span class="num">1</span> 서초점 업종·카테고리 확인</span></label>
+        <label class="pill"><input type="checkbox" name="start" value="829 네이밍 첫 문장 정리"><span><span class="num">2</span> 829 네이밍 첫 문장 정리</span></label>
+        <label class="pill"><input type="checkbox" name="start" value="시그니처 라떼와 대표 메뉴 정리"><span><span class="num">3</span> 시그니처 라떼와 대표 메뉴 정리</span></label>
+        <label class="pill"><input type="checkbox" name="start" value="현장 감각 마찰 개선 포인트 정리"><span><span class="num">4</span> 현장 감각 마찰 개선 포인트 정리</span></label>
+        <label class="pill"><input type="checkbox" name="start" value="플레이스·구글·AI 설명 구조 반영"><span><span class="num">5</span> 플레이스·구글·AI 설명 구조 반영</span></label>
+        <label class="pill"><input type="checkbox" name="start" value="컵홀더·스티커·원두 라벨 소량 테스트"><span><span class="num">6</span> 컵홀더·스티커·원두 라벨 소량 테스트</span></label>
       </div>
-      <div class="lens-card reveal d2">
-        <div class="lens-line"><div class="lens-mark x">X</div><div class="lens-text"><b>가격이 잘 보이면 선택된다</b><span>가격만 보이면 다른 가격에 쉽게 밀립니다.</span></div></div>
-        <div class="arrow"></div>
-        <div class="lens-line"><div class="lens-mark o">O</div><div class="lens-text"><b>가격보다 먼저 “왜 여기인가”가 보여야 한다</b><span>15년·직영·대표 직접 로스팅이 이유가 됩니다.</span></div></div>
+      <div class="ck-memo">
+        <label for="memo">추가로 전달할 메모 (선택)</label>
+        <textarea id="memo" rows="3" placeholder="예: 서초점 카테고리부터 먼저 정리하고 싶습니다 — 자유롭게 적어주세요."></textarea>
       </div>
-      <div class="lens-card reveal d3">
-        <div class="lens-line"><div class="lens-mark x">X</div><div class="lens-text"><b>로스팅한다고 쓰면 충분하다</b><span>로스터리라는 말은 이미 흔합니다.</span></div></div>
-        <div class="arrow"></div>
-        <div class="lens-line"><div class="lens-mark o">O</div><div class="lens-text"><b>왜 그 로스팅이 선택 이유인지 보여야 한다</b><span>4종 블렌드와 대표 직접 관리가 기준으로 읽혀야 합니다.</span></div></div>
-      </div>
+      <button type="button" id="copyBtn" class="copy-btn">
+        선택 내용 복사 · 카카오톡 전달용
+        <svg viewBox="0 0 24 24" fill="none" aria-hidden="true"><rect x="9" y="9" width="11" height="11" rx="2" stroke="currentColor" stroke-width="2"/><path d="M5 15V5a2 2 0 0 1 2-2h10" stroke="currentColor" stroke-width="2" stroke-linecap="round"/></svg>
+      </button>
+      <p class="copy-hint">복사 후 카카오톡 채팅창에 붙여넣어 <b>위플레이스</b>로 보내주세요.</p>
     </div>
   </div>
 </section>
 
-<!-- AI reading simulator -->
-<section class="block ai-section" id="ai-reading">
+<!-- =================== NEXT / CTA =================== -->
+<section class="next" id="next">
   <div class="wrap">
-    <div class="kicker reveal">AI Reading</div>
-    <h2 class="reveal d1">검색은 사람만 보지 않습니다.<br>이제 AI도 브랜드의 근거를 읽습니다.</h2>
-    <p class="note reveal d2" style="margin-top:18px;">핵심은 AI가 COFFEE829를 설명할 때, 단순 카페가 아니라 15년 직영 로스터리로 읽을 근거를 남기는 일입니다.</p>
-    <div class="ai-shell reveal d2">
-      <div class="ai-switch" role="tablist" aria-label="AI 인식 비교">
-        <button type="button" id="aiBeforeBtn" aria-pressed="true">정리 전 AI 인식</button>
-        <button type="button" id="aiAfterBtn" aria-pressed="false">정리 후 AI 인식</button>
-      </div>
-      <div class="ai-window">
-        <div class="ai-top"><span class="ai-dot"></span>AI Search Mock</div>
-        <div class="ai-body">
-          <div class="ai-question"><span>교대역 근처 오래된 로스터리 카페 추천해줘.</span></div>
-          <div class="ai-answer">
-            <div class="ai-icon"></div>
-            <div class="ai-content" id="aiContent"></div>
-          </div>
-        </div>
-      </div>
-    </div>
-    <details class="fold reveal d3">
-      <summary>AI 검색 인식이 왜 중요한가 — 자세히</summary>
-      <div class="fold-body">
-        <p class="note" style="margin:0;">GEO를 어렵게 말할 필요는 없습니다. 이름의 의미, 지점의 역할, 로스팅 기준이 흩어져 있으면 사람에게도 AI에게도 추천의 이유가 흐려집니다. 같은 근거가 한곳에 모여 있어야, 사람과 AI가 같은 문장으로 829를 설명합니다.</p>
-      </div>
-    </details>
-  </div>
-</section>
-
-<!-- chapter 02 recap -->
-<section class="block chap-recap-section">
-  <div class="wrap">
-    <p class="chap-recap reveal">정리 전후의 차이는 디자인 차이가 아니라,<br>선택할 이유가 먼저 보이느냐의 차이입니다.</p>
-  </div>
-</section>
-
-<!-- diagnostic image break (bridge to chapter 03) -->
-<section class="imgbreak diagnostic">
-  <div class="caption">
-    <div class="kicker reveal">Diagnostic Check</div>
-    <h2 class="reveal d1">읽고 끝나는 문서가 아니라,<br>다음 통화의 기준을 남깁니다.</h2>
-  </div>
-</section>
-
-<!-- ===================== CHAPTER 03 ===================== -->
-<section class="chapintro" id="ch3">
-  <div class="wrap">
-    <div class="reveal"><nav class="chaprail" aria-label="진단서 진행"><a href="#ch1"><span class="cr-no">01</span><span class="cr-label">가진 것</span></a><span class="cr-sep"></span><a href="#ch2"><span class="cr-no">02</span><span class="cr-label">읽히는 방식</span></a><span class="cr-sep"></span><a href="#ch3" class="active"><span class="cr-no">03</span><span class="cr-label">실행 순서</span></a></nav></div>
-    <div class="reveal d1">
-      <div class="ch-eyebrow">Chapter 03</div>
-      <h2>그래서 무엇을 정리하나</h2>
-      <div class="ch-sum">여기서부터는 읽는 구간이 아니라,<br>다음 통화의 실행 순서를 고르는 구간입니다.</div>
-    </div>
-  </div>
-</section>
-
-<!-- owner check -->
-<section class="block checkarea" id="check">
-  <div class="wrap">
-    <div class="kicker reveal">Owner Check</div>
-    <h2 class="reveal d1">COFFEE829는 지금<br>무엇을 먼저 앞에 세워야 할까요?</h2>
-    <p class="note reveal d2" style="margin-top:18px;">선택한 기준은 다음 통화에서 실행 순서를 잡는 재료가 됩니다.</p>
-
-    <div class="qcard reveal d1" data-q="지금 가장 먼저 키워야 할 흐름">
-      <div class="qno">Question 01</div>
-      <h3>지금 가장 먼저 키워야 할 흐름은?</h3>
-      <div class="opts">
-        <label class="pill"><input type="radio" name="priority" value="서초점 매출 안착"><span>서초점 매출 안착</span></label>
-        <label class="pill"><input type="radio" name="priority" value="3개 직영 브랜드 인식"><span>3개 직영 브랜드 인식</span></label>
-        <label class="pill"><input type="radio" name="priority" value="원두/로스팅 신뢰 강화"><span>원두/로스팅 신뢰 강화</span></label>
-        <label class="pill"><input type="radio" name="priority" value="가맹사업 준비"><span>가맹사업 준비</span></label>
-      </div>
-    </div>
-
-    <div class="qcard reveal d1" data-q="처음 보는 사람이 829를 어떻게 기억해야 하는가">
-      <div class="qno">Question 02</div>
-      <h3>처음 보는 사람이 829를 어떻게 기억해야 할까요?</h3>
-      <div class="opts">
-        <label class="pill chk"><input type="checkbox" name="identity" value="2012년 8월 29일 시작된 브랜드"><span>2012년 8월 29일 시작된 브랜드</span></label>
-        <label class="pill chk"><input type="checkbox" name="identity" value="교대에서 15년 버틴 카페"><span>교대에서 15년 버틴 카페</span></label>
-        <label class="pill chk"><input type="checkbox" name="identity" value="대표가 직접 로스팅하는 직영 브랜드"><span>대표가 직접 로스팅하는 직영 브랜드</span></label>
-        <label class="pill chk"><input type="checkbox" name="identity" value="서초까지 확장된 운영력 있는 브랜드"><span>서초까지 확장된 운영력 있는 브랜드</span></label>
-        <label class="pill chk"><input type="checkbox" name="identity" value="가맹까지 가능한 커피 기준"><span>가맹까지 가능한 커피 기준</span></label>
-      </div>
-    </div>
-
-    <div class="qcard reveal d1" data-q="지금 가장 아까운 지점">
-      <div class="qno">Question 03</div>
-      <h3>지금 가장 아까운 지점은?</h3>
-      <div class="opts">
-        <label class="pill chk"><input type="checkbox" name="gap" value="829라는 이름이 시작일로 덜 기억됨"><span>829가 시작일로 덜 기억됨</span></label>
-        <label class="pill chk"><input type="checkbox" name="gap" value="교대점의 신뢰가 서초점으로 덜 이어짐"><span>교대 신뢰가 서초로 덜 이어짐</span></label>
-        <label class="pill chk"><input type="checkbox" name="gap" value="로스팅 자산이 화면에 약하게 보임"><span>로스팅 자산이 약하게 보임</span></label>
-        <label class="pill chk"><input type="checkbox" name="gap" value="3개 지점이 따로 보일 수 있음"><span>3개 지점이 따로 보임</span></label>
-        <label class="pill chk"><input type="checkbox" name="gap" value="대표님의 스레드 기록이 콘텐츠 자산으로 덜 쓰임"><span>스레드 기록이 덜 쓰임</span></label>
-        <label class="pill chk"><input type="checkbox" name="gap" value="주변 회사원이 바로 방문할 이유가 덜 보임"><span>회사원 방문 이유가 덜 보임</span></label>
-      </div>
-    </div>
-
-    <div class="qcard reveal d1">
-      <div class="qno">Memo</div>
-      <h3>대표님 메모</h3>
-      <textarea id="ownerMemo" placeholder="지금 COFFEE829에서 가장 먼저 정리하고 싶은 부분을 적어주세요."></textarea>
-    </div>
-
-    <div class="actionbar reveal d2">
-      <button class="btn" type="button" id="makeSummary">COFFEE829 기준 정리하기</button>
-      <div class="hint">선택 내용은 요약되어 다음 통화의 기준으로 사용할 수 있습니다.</div>
-    </div>
-  </div>
-</section>
-
-<!-- focus: 정리하면, Weplace가 맡는 일 -->
-<section class="block" id="custom-work">
-  <div class="wrap">
-    <div class="kicker reveal">What Weplace Does</div>
-    <h2 class="reveal d1">정리하면,<br>Weplace가 맡는 일</h2>
-    <p class="note reveal d2" style="margin-top:18px;">새 마케팅을 얹는 일이 아니라, 이미 가진 이름과 신뢰가 그대로 읽히게 정리하는 일입니다.</p>
-    <div class="focusgrid">
-      <div class="focuscard reveal d1"><div class="fk">01</div><div class="ft2">829 네이밍 스토리 정리</div><div class="fd2">숫자를 시작일과 브랜드 기억 장치로 바꿉니다.</div></div>
-      <div class="focuscard reveal d1"><div class="fk">02</div><div class="ft2">외관 첫인상 보정</div><div class="fd2">중저가형으로만 읽히는 표면에 15년 기준을 얹습니다.</div></div>
-      <div class="focuscard reveal d2"><div class="fk">03</div><div class="ft2">3개 직영점 역할 정리</div><div class="fd2">교대는 시작점, 남부는 검증점, 서초는 확장점으로 보이게 합니다.</div></div>
-      <div class="focuscard reveal d2"><div class="fk">04</div><div class="ft2">AI와 검색이 읽을 근거 정리</div><div class="fd2">사람뿐 아니라 AI도 커피829를 직영 로스터리로 설명하게 만듭니다.</div></div>
-    </div>
-
-    <details class="fold reveal d3">
-      <summary>실행 항목 6가지 자세히 보기</summary>
-      <div class="fold-body">
-        <div class="workgrid" style="margin-top:6px;">
-          <div class="workcard"><div class="wk">01</div><div class="wt">829 네이밍 스토리</div><div class="wd">시작일이 첫 화면과 소개 문구에서 바로 읽히게 만듭니다.</div><div class="result">결과: 829가 시작일과 기준을 가진 이름으로 기억됩니다.</div></div>
-          <div class="workcard"><div class="wk">02</div><div class="wt">서초점 첫 화면</div><div class="wd">교대점의 신뢰가 서초점과 회사원 동선으로 이어지게 정리합니다.</div><div class="result">결과: 서초점이 브랜드 확장 지점으로 읽힙니다.</div></div>
-          <div class="workcard"><div class="wk">03</div><div class="wt">3개 직영점 역할</div><div class="wd">교대는 뿌리, 남부는 검증, 서초는 확장으로 흐름을 잡습니다.</div><div class="result">결과: 지점들이 하나의 직영 브랜드로 연결됩니다.</div></div>
-          <div class="workcard"><div class="wk">04</div><div class="wt">로스팅 자산 노출</div><div class="wd">직접 볶는 기준과 납품 경험이 선택 이유가 되게 정리합니다.</div><div class="result">결과: “맛있는 카페”보다 “기준 있는 로스터리”로 보입니다.</div></div>
-          <div class="workcard"><div class="wk">05</div><div class="wt">대표님 기록 자산화</div><div class="wd">스레드의 15년 시장 관점을 신뢰 콘텐츠로 재정리합니다.</div><div class="result">결과: 대표님의 관점이 화면에서 읽히는 근거가 됩니다.</div></div>
-          <div class="workcard"><div class="wk">06</div><div class="wt">교대본점 플레이스 표면</div><div class="wd">리뷰, 거리, 로스팅 설명이 더 빨리 읽히게 재배치합니다.</div><div class="result">결과: 오래된 카페를 넘어 직영 로스터리로 이해됩니다.</div></div>
-        </div>
-      </div>
-    </details>
-  </div>
-</section>
-
-<!-- exterior signals (light suggestions, not a renovation pitch) -->
-<section class="block signal-section" id="signals">
-  <div class="wrap">
-    <div class="kicker reveal">Quick Signals</div>
-    <h2 class="reveal d1">큰 공사보다 먼저,<br>넣어볼 수 있는 브랜드 신호.</h2>
-    <p class="note reveal d2" style="margin-top:18px;">간판을 전부 바꾸자는 이야기가 아닙니다. 지금 표면 위에 먼저 얹어볼 수 있는 문장 단위의 신호입니다.</p>
-    <div class="signalgrid">
-      <div class="signalcard reveal d1"><div class="sloc">유리 시트 문구</div><div class="scopy">Started on Aug 29, 2012 · 대표 직접 로스팅</div></div>
-      <div class="signalcard reveal d1"><div class="sloc">입간판 상단</div><div class="scopy">15년 데일리 로스터리 · 교대에서 시작한 커피829</div></div>
-      <div class="signalcard reveal d2"><div class="sloc">메뉴판 상단</div><div class="scopy">매일 마시는 커피에, 15년의 기준을 담았습니다.</div></div>
-      <div class="signalcard reveal d2"><div class="sloc">네이버·구글 첫 문장</div><div class="scopy">2012년 8월 29일 교대에서 시작한 직영 로스터리 브랜드입니다.</div></div>
-    </div>
-    <div class="gap-close reveal d3">먼저 문장으로 신호를 얹어보고, 반응을 보며 표면을 단계적으로 정리하면 됩니다.</div>
-  </div>
-</section>
-
-<!-- what remains -->
-<section class="block asset-left-section" id="remaining-assets">
-  <div class="wrap">
-    <div class="kicker reveal">What Remains</div>
-    <h2 class="reveal d1">작업이 끝나면,<br>무엇이 남는가</h2>
-    <p class="note reveal d2" style="margin-top:18px;">좋은 진단은 일회성으로 사라지지 않습니다. 문장, 화면, 기준, 소개서로 남아 다음 확장의 재료가 됩니다.</p>
-    <div class="asset-table reveal d2">
-      <div class="asset-head"><div>손봐야 할 지점</div><div>Weplace가 하는 일</div><div>남는 자산</div></div>
-      <div class="asset-row"><div><b>829가 숫자로만 보임</b>이름의 의미가 첫 화면에서 바로 연결되지 않음</div><div>2012년 8월 29일 시작된 브랜드 스토리로 정리</div><div class="remain">브랜드 첫 문장 · 플레이스 소개 · 홈 헤드라인</div></div>
-      <div class="asset-row"><div><b>3개 지점이 따로 보일 수 있음</b>교대·남부·서초의 역할이 분리되어 보임</div><div>교대=뿌리, 남부=검증, 서초=확장 구조로 연결</div><div class="remain">직영 브랜드맵 · 고정 게시물 · 지점 소개 문장</div></div>
-      <div class="asset-row"><div><b>로스팅 설명이 정보로만 보임</b>원두명이 선택 이유까지 이어지지 않음</div><div>4종 블렌드와 대표 직접 관리를 맛의 기준으로 재구성</div><div class="remain">원두 소개 문구 · 납품 문의 설명 · 콘텐츠 기준</div></div>
-      <div class="asset-row"><div><b>스레드가 기록으로만 남음</b>15년 관점이 브랜드 신뢰로 축적되지 않음</div><div>대표님의 시장 해석을 브랜드 자산형 콘텐츠로 정리</div><div class="remain">대표 브랜딩 글감 · 가맹/채용 신뢰 자료</div></div>
-    </div>
-    <div class="fresh-tagline reveal d3"><b>Weplace가 주는 신선함:</b> 채널을 많이 만지는 것이 아니라, 같은 브랜드가 네이버·인스타·스레드·구글·AI 검색에서 같은 결로 읽히게 만드는 일입니다.</div>
-
-    <details class="fold reveal d3">
-      <summary>채널별 역할 자세히 보기</summary>
-      <div class="fold-body">
-        <div class="channels" style="margin-top:6px;">
-          <div class="channel"><div class="ck">Naver Place</div><div><div class="ct">회사원이 방문 이유를 확인하는 곳</div><div class="cd">리뷰·거리·설명문·서초 동선이 같은 브랜드로 읽혀야 합니다.</div></div></div>
-          <div class="channel"><div class="ck">Instagram</div><div><div class="ct">분위기와 지점별 결을 보는 곳</div><div class="cd">예쁜 사진보다 “어떤 브랜드인가”가 먼저 보여야 합니다.</div></div></div>
-          <div class="channel"><div class="ck">Threads</div><div><div class="ct">15년 운영자의 관점이 쌓이는 곳</div><div class="cd">기록장이 아니라 대표님의 시장 해석을 보여주는 자산입니다.</div></div></div>
-          <div class="channel"><div class="ck">Google Profile</div><div><div class="ct">외부 검색과 지도 검색까지 대비하는 곳</div><div class="cd">비한국어 사용자에게도 기본 정보가 선명해야 합니다.</div></div></div>
-          <div class="channel"><div class="ck">Brand Page</div><div><div class="ct">가맹·납품·브랜드 소개의 기준점</div><div class="cd">확장할수록 하나의 기준 페이지가 필요합니다.</div></div></div>
-        </div>
-      </div>
-    </details>
-  </div>
-</section>
-
-<!-- 30 day plan -->
-<section class="block" style="background:linear-gradient(180deg,rgba(36,23,13,.2),rgba(10,8,6,.05));">
-  <div class="wrap">
-    <div class="kicker reveal">First 30 Days</div>
-    <h2 class="reveal d1">처음부터 광고보다,<br>30일 동안 먼저 정리할 것</h2>
-    <p class="daylead reveal d2">광고를 켜기 전에, 화면과 문장부터 정리합니다.</p>
-    <details class="fold reveal d2">
-      <summary>30일 실행 항목 6가지 보기</summary>
-      <div class="fold-body">
-        <div class="steps" style="margin-top:6px;">
-          <div class="step"><div><b>829 네이밍 스토리 문장화</b><span>시작일이 첫 화면·소개문·고정 게시물에서 브랜드 기준으로 읽히게 정리.</span></div></div>
-          <div class="step"><div><b>3개 지점 플레이스 첫 화면 점검</b><span>교대 신뢰와 서초 신규 동선이 같은 브랜드로 보이는지 확인.</span></div></div>
-          <div class="step"><div><b>교대·남부·서초 역할 문장 정리</b><span>뿌리·검증·확장 구조로 첫 인식을 정리.</span></div></div>
-          <div class="step"><div><b>인스타 프로필·고정 게시물 정리</b><span>방문·원두·직영 브랜드 인식이 한 번에 보이는 화면 설계.</span></div></div>
-          <div class="step"><div><b>서초점 회사원 방문 이유 설계</b><span>점심 이후·미팅 전후·테이크아웃 동선 중심으로 정리.</span></div></div>
-          <div class="step"><div><b>스레드·로스팅 자산 콘텐츠 기준</b><span>대표님 시장 관점과 직접 로스팅 기준을 신뢰 콘텐츠로 전환.</span></div></div>
-        </div>
-      </div>
-    </details>
-  </div>
-</section>
-
-<!-- emotional close -->
-<section class="emotional-close" id="emotional-close">
-  <div class="wrap">
-    <div class="close-card reveal">
-      <div class="kicker" style="justify-content:center;">Final Frame</div>
-      <h2>COFFEE829가 지금<br>지나고 있는 자리</h2>
-      <p>이제 오래된 카페 하나를 더 알리는 단계가 아닙니다.</p>
-      <p>829라는 시작일, 교대에서 버틴 시간, 직영 운영력, 직접 볶아온 기준을 첫 화면에서 브랜드로 읽히게 만드는 단계입니다.</p>
-      <div class="lastline">다음 통화에서는 이 이름을<br>어떤 순서로 화면에 세울지 정리하면 됩니다.</div>
-    </div>
-  </div>
-</section>
-
-<!-- re-call CTA -->
-<section class="cta">
-  <div class="wrap">
-    <div class="kicker reveal" style="justify-content:center;">Next Call</div>
-    <h2 class="reveal d1">다음 통화에서는<br>실행 순서를 정리합니다.</h2>
-    <p class="reveal d2">가격보다 먼저 실행 순서를 정리합니다.<br><br>829 네이밍, 서초점 첫 화면, 3개 직영점 역할, 로스팅 자산 중 무엇부터 손볼지 좁히면 됩니다.</p>
-    <button class="btn reveal d2" type="button" id="copyFromBottom">선택 기준 복사하기</button>
+    <div class="ch-no r"><span>Next</span></div>
+    <h2 class="r d1">다음 통화에서,<br><b>실행 순서를 잡겠습니다.</b></h2>
+    <p class="desc r d2">오늘 본 기준을 바탕으로, 서초점부터 3개 직영까지 어떤 순서로 정리할지 함께 결정하면 됩니다.</p>
+    <a class="cta r d2" href="#plan">
+      다음 통화에서 실행 순서 정리
+      <svg viewBox="0 0 24 24" fill="none" aria-hidden="true"><path d="M5 12h14M13 6l6 6-6 6" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></svg>
+    </a>
   </div>
 </section>
 
 <footer>
   <div class="wrap">
-    <div class="fbrand">WEPLACE · MASHCORE</div>
-    <div>상위노출보다 먼저, 829라는 이름이 어떤 브랜드로 읽히는지부터 정리합니다.</div>
+    <div class="brandmark">Weplace</div>
+    <div class="signoff">We, Place.</div>
+    <p class="tag">브랜드의 첫 표면과 구조를 사람과 AI가 함께 읽도록 정리합니다 · COFFEE829 서초점 브랜드 기준점 진단 · 위플레이스</p>
   </div>
 </footer>
 
-<div class="modalback" id="modalBack" role="dialog" aria-modal="true" aria-labelledby="modalTitle">
+<!-- =================== COPY MODAL =================== -->
+<div class="modal-overlay" id="copyModal" role="dialog" aria-modal="true" aria-labelledby="modalTitle">
   <div class="modal">
-    <h3 id="modalTitle">선택 기준이 정리되었습니다.</h3>
-    <p>선택하신 기준은 COFFEE829가 먼저 어떤 얼굴로 읽혀야 하는지 보여줍니다. 다음 통화에서는 이 기준으로 실행 순서를 정리합니다.</p>
-    <div class="summaryText" id="summaryText"></div>
-    <div class="modalactions">
-      <button type="button" id="closeModal">닫기</button>
-      <button type="button" class="solid" id="copySummary">요약 복사</button>
+    <div class="m-icon"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M20 6 9 17l-5-5"/></svg></div>
+    <h3 id="modalTitle">복사되었습니다</h3>
+    <p>아래 내용이 복사되었습니다.<br>카카오톡으로 <b>위플레이스</b>에 붙여넣어 전달해 주세요.</p>
+    <textarea id="copyPreview" readonly aria-label="복사된 내용"></textarea>
+    <div class="modal-actions">
+      <button type="button" class="btn-ghost" id="copyAgain">다시 복사</button>
+      <button type="button" class="btn-solid" id="closeModal">확인</button>
     </div>
   </div>
 </div>
 
 <script>
-/* scroll reveal */
-var io = new IntersectionObserver(function(entries){
-  entries.forEach(function(e){ if(e.isIntersecting){ e.target.classList.add('in'); io.unobserve(e.target); } });
-},{threshold:.12});
-document.querySelectorAll('.reveal').forEach(function(el){ io.observe(el); });
-
-/* before/after toggle flow */
-var dimData = [
-  ['교대점은 오래된 매장으로만 보임','15년 자산이 브랜드 흐름으로 덜 압축됨'],
-  ['서초점은 신규 매장으로만 보임','왜 이 위치에 열렸는지 바로 읽기 어려움'],
-  ['로스팅은 따로 보임','품질 기준이 매장 선택 이유로 연결되지 않음'],
-  ['스레드는 기록으로만 보임','대표님 관점이 신뢰 자산으로 덜 쓰임'],
-  ['고객은 다음 행동이 덜 선명함','방문·원두·문의 중 무엇을 할지 흐려질 수 있음']
-];
-var clearData = [
-  ['교대점은 브랜드의 뿌리','15년 신뢰가 전체 브랜드의 출발점으로 보임'],
-  ['남부점은 검증된 운영력','한 매장이 아닌 직영 브랜드로 읽힘'],
-  ['서초점은 회사원 동선','주변 직장인에게 방문 이유가 빠르게 전달됨'],
-  ['로스팅은 품질 기준','맛있다는 주장보다 기준 있는 브랜드로 보임'],
-  ['스레드는 대표의 관점 자산','가맹·채용·납품까지 연결되는 신뢰가 쌓임']
-];
-var flowGrid = document.getElementById('flowGrid');
-var dimBtn = document.getElementById('dimBtn');
-var clearBtn = document.getElementById('clearBtn');
-function renderFlow(type){
-  var data = type === 'clear' ? clearData : dimData;
-  flowGrid.innerHTML = data.map(function(r){
-    return '<div class="frow"><span class="dot"></span><div><div class="ft">'+r[0]+'</div><div class="fd">'+r[1]+'</div></div></div>';
-  }).join('');
-  dimBtn.setAttribute('aria-pressed', type === 'dim');
-  clearBtn.setAttribute('aria-pressed', type === 'clear');
-}
-if(dimBtn && clearBtn){
-  dimBtn.addEventListener('click', function(){ renderFlow('dim'); });
-  clearBtn.addEventListener('click', function(){ renderFlow('clear'); });
-  renderFlow('dim');
-}
-
-/* WORKING before/after compare slider (mouse drag + touch + keyboard) */
-document.querySelectorAll('.compare').forEach(function(box){
-  var range = box.querySelector('.compare-range');
-  function setPos(pct){
-    pct = Math.max(0, Math.min(100, pct));
-    box.style.setProperty('--pos', pct + '%');
-    if(range){ range.value = pct; range.setAttribute('aria-valuenow', Math.round(pct)); }
+/* ---------- 1. scroll reveal ---------- */
+(function(){
+  var els = document.querySelectorAll('.r');
+  if(!('IntersectionObserver' in window)){
+    els.forEach(function(el){ el.classList.add('in'); });
+    return;
   }
-  if(range){
-    range.addEventListener('input', function(){ setPos(parseFloat(range.value)); });
-    range.addEventListener('focus', function(){ box.classList.add('is-focus'); });
-    range.addEventListener('blur', function(){ box.classList.remove('is-focus'); });
-  }
-  var dragging = false;
-  function pctFromX(clientX){
-    var r = box.getBoundingClientRect();
-    if(!r.width) return 50;
-    return ((clientX - r.left) / r.width) * 100;
-  }
-  box.addEventListener('pointerdown', function(e){
-    dragging = true;
-    if(box.setPointerCapture){ try{ box.setPointerCapture(e.pointerId); }catch(err){} }
-    setPos(pctFromX(e.clientX));
-  });
-  box.addEventListener('pointermove', function(e){
-    if(dragging){ setPos(pctFromX(e.clientX)); }
-  });
-  function endDrag(){ dragging = false; }
-  box.addEventListener('pointerup', endDrag);
-  box.addEventListener('pointercancel', endDrag);
-  box.addEventListener('lostpointercapture', endDrag);
-  setPos(range ? parseFloat(range.value) : 50);
-});
-
-/* AI reading simulator */
-var aiBeforeBtn = document.getElementById('aiBeforeBtn');
-var aiAfterBtn = document.getElementById('aiAfterBtn');
-var aiContent = document.getElementById('aiContent');
-var aiCopy = {
-  before: {
-    title: '교대역 근처 카페 몇 곳이 있습니다.',
-    body: 'COFFEE829는 교대역 근처 카페로 리뷰와 위치가 확인됩니다. 로스팅 설명은 있으나, 시작일·직영 구조·서초 확장 맥락이 충분히 연결되어 읽히지 않습니다.',
-    items: ['교대역 근처 카페', '리뷰가 있는 매장', '로스팅 설명이 있는 카페']
-  },
-  after: {
-    title: 'COFFEE829는 2012년 8월 29일 교대에서 시작한 직영 로스터리 브랜드입니다.',
-    body: '교대본점 15년, 남부터미널점 9년, 서초점 신규 오픈으로 이어진 3개 직영 매장을 운영하며, 대표가 직접 원두 선정과 로스팅 기준을 관리합니다.',
-    items: ['829 = 2012년 8월 29일 시작일', '교대·남부·서초 3개 직영 브랜드', 'Brazil·Colombia·Costa Rica·Guatemala 4종 블렌딩', '서초 회사원 동선으로 확장 중']
-  }
-};
-function renderAi(mode){
-  if(!aiContent) return;
-  var data = aiCopy[mode];
-  aiContent.innerHTML = '<h3>'+data.title+'</h3><p>'+data.body+'</p><div class="ai-list">'+
-    data.items.map(function(v){ return '<div><b>근거</b>'+v+'</div>'; }).join('')+'</div>';
-  if(aiBeforeBtn) aiBeforeBtn.setAttribute('aria-pressed', mode === 'before');
-  if(aiAfterBtn) aiAfterBtn.setAttribute('aria-pressed', mode === 'after');
-}
-if(aiBeforeBtn && aiAfterBtn){
-  aiBeforeBtn.addEventListener('click', function(){ renderAi('before'); });
-  aiAfterBtn.addEventListener('click', function(){ renderAi('after'); });
-  renderAi('before');
-}
-
-/* owner check summary + modal */
-function selectedValues(name){
-  return Array.from(document.querySelectorAll('input[name="'+name+'"]:checked')).map(function(i){ return i.value; });
-}
-function buildSummary(){
-  var priority = selectedValues('priority')[0] || '아직 선택 없음';
-  var identity = selectedValues('identity');
-  var gap = selectedValues('gap');
-  var memoEl = document.getElementById('ownerMemo');
-  var memo = memoEl ? memoEl.value.trim() : '';
-  var identityText = identity.length ? identity.join(', ') : '아직 선택 없음';
-  var gapText = gap.length ? gap.join(', ') : '아직 선택 없음';
-  return 'COFFEE829 진단 선택 기준\n\n1. 가장 먼저 키워야 할 흐름\n- '+priority+
-    '\n\n2. 829를 기억해야 할 방향\n- '+identityText+
-    '\n\n3. 지금 가장 아까운 지점\n- '+gapText+
-    '\n\n4. 대표님 메모\n- '+(memo || '메모 없음')+
-    '\n\n다음 통화에서는 위 기준을 바탕으로 829 네이밍, 서초점 안착, 직영 브랜드 인식, 로스팅 신뢰, 가맹 전초 중 어느 흐름을 먼저 잡을지 정리합니다.';
-}
-var modalBack = document.getElementById('modalBack');
-var summaryText = document.getElementById('summaryText');
-function openSummary(){
-  if(!summaryText || !modalBack) return;
-  summaryText.textContent = buildSummary();
-  modalBack.classList.add('open');
-}
-function copyText(){
-  var txt = (summaryText && summaryText.textContent) || buildSummary();
-  var btn = document.getElementById('copySummary');
-  if(navigator.clipboard && navigator.clipboard.writeText){
-    navigator.clipboard.writeText(txt).then(function(){
-      if(btn){ btn.textContent = '복사 완료'; setTimeout(function(){ btn.textContent = '요약 복사'; }, 1400); }
-    }).catch(function(){
-      alert('복사가 제한되었습니다. 모달 안의 요약문을 직접 선택해 복사해주세요.');
+  var io = new IntersectionObserver(function(entries){
+    entries.forEach(function(e){
+      if(e.isIntersecting){ e.target.classList.add('in'); io.unobserve(e.target); }
     });
-  } else {
-    alert('복사가 제한되었습니다. 모달 안의 요약문을 직접 선택해 복사해주세요.');
+  }, { threshold:0.12, rootMargin:'0px 0px -8% 0px' });
+  els.forEach(function(el){ io.observe(el); });
+})();
+
+/* ---------- 2. before / after slider (mouse + touch + keyboard) ---------- */
+(function(){
+  var frame  = document.getElementById('baFrame');
+  var handle = document.getElementById('baHandle');
+  if(!frame || !handle) return;
+
+  var pos = 50;          // 0 = all After, 100 = all Before
+  var dragging = false;
+
+  function clamp(v){ return Math.max(0, Math.min(100, v)); }
+
+  function apply(v){
+    pos = clamp(v);
+    frame.style.setProperty('--x', pos + '%');
+    handle.setAttribute('aria-valuenow', Math.round(pos));
   }
-}
-var makeSummaryBtn = document.getElementById('makeSummary');
-var copyFromBottomBtn = document.getElementById('copyFromBottom');
-var closeModalBtn = document.getElementById('closeModal');
-var copySummaryBtn = document.getElementById('copySummary');
-if(makeSummaryBtn) makeSummaryBtn.addEventListener('click', openSummary);
-if(copyFromBottomBtn) copyFromBottomBtn.addEventListener('click', openSummary);
-if(closeModalBtn) closeModalBtn.addEventListener('click', function(){ modalBack.classList.remove('open'); });
-if(copySummaryBtn) copySummaryBtn.addEventListener('click', copyText);
-if(modalBack) modalBack.addEventListener('click', function(e){ if(e.target === modalBack) modalBack.classList.remove('open'); });
-document.addEventListener('keydown', function(e){ if(e.key === 'Escape' && modalBack) modalBack.classList.remove('open'); });
+
+  function pctFromX(clientX){
+    var rect = frame.getBoundingClientRect();
+    return ((clientX - rect.left) / rect.width) * 100;
+  }
+
+  // drag via Pointer Events (unified mouse / touch / pen)
+  handle.addEventListener('pointerdown', function(e){
+    dragging = true;
+    handle.classList.remove('is-nudge');
+    try { handle.setPointerCapture(e.pointerId); } catch(_){}
+    e.preventDefault();
+  });
+  handle.addEventListener('pointermove', function(e){
+    if(!dragging) return;
+    apply(pctFromX(e.clientX));
+    e.preventDefault();
+  });
+  function endDrag(e){
+    if(!dragging) return;
+    dragging = false;
+    try { handle.releasePointerCapture(e.pointerId); } catch(_){}
+  }
+  handle.addEventListener('pointerup', endDrag);
+  handle.addEventListener('pointercancel', endDrag);
+
+  // tap on the track to jump (ignores drags, which fire on the handle)
+  frame.addEventListener('click', function(e){
+    if(e.target.closest('.ba-handle')) return;
+    apply(pctFromX(e.clientX));
+  });
+
+  // keyboard
+  handle.addEventListener('keydown', function(e){
+    var step = 4;
+    if(e.key === 'ArrowLeft' || e.key === 'ArrowDown'){ apply(pos - step); e.preventDefault(); }
+    else if(e.key === 'ArrowRight' || e.key === 'ArrowUp'){ apply(pos + step); e.preventDefault(); }
+    else if(e.key === 'Home'){ apply(0); e.preventDefault(); }
+    else if(e.key === 'End'){ apply(100); e.preventDefault(); }
+  });
+
+  apply(50);
+
+  // one-time gentle nudge when the slider scrolls into view
+  var reduce = window.matchMedia && window.matchMedia('(prefers-reduced-motion: reduce)').matches;
+  if(!reduce && 'IntersectionObserver' in window){
+    var seen = false;
+    var nio = new IntersectionObserver(function(entries){
+      entries.forEach(function(en){
+        if(en.isIntersecting && !seen){
+          seen = true;
+          handle.classList.add('is-nudge');
+          setTimeout(function(){ handle.classList.remove('is-nudge'); }, 1700);
+          nio.unobserve(en.target);
+        }
+      });
+    }, { threshold:0.5 });
+    nio.observe(frame);
+  }
+})();
+
+/* ---------- 3. check → copy → modal ---------- */
+(function(){
+  var btn = document.getElementById('copyBtn');
+  if(!btn) return;
+
+  function buildText(){
+    var lines = ['[COFFEE829 서초점 진단 — 대표 확인]', ''];
+    var checked = document.querySelectorAll('input[name="start"]:checked');
+    if(checked.length){
+      lines.push('먼저 시작할 항목');
+      Array.prototype.forEach.call(checked, function(el, i){
+        lines.push((i+1) + '. ' + el.value);
+      });
+    } else {
+      lines.push('먼저 시작할 항목 : 미선택');
+    }
+    var memoEl = document.getElementById('memo');
+    var memo = memoEl ? (memoEl.value || '').trim() : '';
+    if(memo){ lines.push('', '메모 : ' + memo); }
+    lines.push('', '— 위플레이스(Weplace) 전달용');
+    return lines.join('\n');
+  }
+
+  function fallbackCopy(text){
+    var ta = document.createElement('textarea');
+    ta.value = text; ta.setAttribute('readonly','');
+    ta.style.position = 'fixed'; ta.style.top = '-9999px';
+    document.body.appendChild(ta); ta.select();
+    var ok = false; try { ok = document.execCommand('copy'); } catch(_){}
+    document.body.removeChild(ta);
+    return ok;
+  }
+  function copyText(text){
+    if(navigator.clipboard && window.isSecureContext){
+      return navigator.clipboard.writeText(text)
+        .then(function(){ return true; })
+        .catch(function(){ return fallbackCopy(text); });
+    }
+    return Promise.resolve(fallbackCopy(text));
+  }
+
+  var modal   = document.getElementById('copyModal');
+  var preview = document.getElementById('copyPreview');
+
+  function openModal(text){
+    preview.value = text;
+    modal.classList.add('open');
+    document.body.style.overflow = 'hidden';
+  }
+  function closeModal(){
+    modal.classList.remove('open');
+    document.body.style.overflow = '';
+  }
+
+  btn.addEventListener('click', function(){
+    var text = buildText();
+    copyText(text).then(function(){ openModal(text); });
+  });
+  document.getElementById('closeModal').addEventListener('click', closeModal);
+  document.getElementById('copyAgain').addEventListener('click', function(){
+    var b = this;
+    copyText(preview.value).then(function(){
+      var prev = b.textContent; b.textContent = '복사됨 ✓';
+      setTimeout(function(){ b.textContent = prev; }, 1400);
+    });
+  });
+  modal.addEventListener('click', function(e){ if(e.target === modal) closeModal(); });
+  document.addEventListener('keydown', function(e){
+    if(e.key === 'Escape' && modal.classList.contains('open')) closeModal();
+  });
+})();
 </script>
 </body>
 </html>
