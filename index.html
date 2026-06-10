@@ -11,7 +11,7 @@
 <meta property="og:type" content="website" />
 <meta property="og:title" content="COFFEE829 서초점 — 브랜드 기준점 진단" />
 <meta property="og:description" content="829는 숫자가 아니라 시작일입니다. 서초점은 커피829가 앞으로 어떤 브랜드로 읽힐지 보여주는 기준점입니다." />
-<meta property="og:image" content="coffee829hero.jpg" />
+<meta property="og:image" content="coffee829-hero.jpg" />
 
 <!-- Fonts -->
 <link rel="preconnect" href="https://fonts.googleapis.com" />
@@ -136,7 +136,7 @@
     background:
       linear-gradient(to bottom, rgba(21,16,11,.35) 0%, rgba(21,16,11,.1) 26%, rgba(21,16,11,.55) 64%, var(--espresso) 100%),
       radial-gradient(120% 80% at 70% 36%, rgba(21,16,11,.15), rgba(21,16,11,.72) 100%),
-      url("coffee829hero.jpg") center / cover no-repeat;
+      url("coffee829-hero.jpg") center / cover no-repeat;
   }
   .hero-inner{width:100%; max-width:var(--maxw); margin:0 auto; padding:0 var(--pad) clamp(48px,9vw,72px);}
   .hero-eyebrow{
@@ -309,35 +309,28 @@
   }
   .thread-cap b{color:var(--brass-hi); font-weight:500;}
 
-  /* ---------------- before / after slider ---------------- */
+  /* ---------------- before / after slider (image wipe) ---------------- */
   .ba{margin-top:clamp(34px,7vw,48px);}
   .ba-frame{
     position:relative; border-radius:var(--r); overflow:hidden;
     border:1px solid var(--line-2);
+    aspect-ratio:3 / 2; background:#15100b;
     touch-action:pan-y; user-select:none; -webkit-user-select:none;
     --x:50%;
   }
-  .ba-sizer{visibility:hidden; padding:clamp(22px,5.4vw,30px); pointer-events:none;}
-  .ba-pane{position:absolute; inset:0; padding:clamp(22px,5.4vw,30px);}
-  .ba-before{background:linear-gradient(160deg, #1d160f, #15100b);}
-  .ba-after{
-    background:linear-gradient(160deg, rgba(182,138,78,.14), #221a11 70%);
-    clip-path:inset(0 0 0 var(--x));
-    border-left:0;
-  }
+  .ba-pane{position:absolute; inset:0;}
+  .ba-pane img{width:100%; height:100%; object-fit:cover; display:block; -webkit-user-drag:none;}
+  .ba-after{clip-path:inset(0 0 0 var(--x));}
+  .ba-pane::after{content:""; position:absolute; inset:0; pointer-events:none;
+    background:linear-gradient(180deg, rgba(15,11,7,.5) 0%, rgba(15,11,7,0) 28%, rgba(15,11,7,0) 68%, rgba(15,11,7,.42) 100%);}
   .ba-tag{
-    display:inline-block; font-size:.66rem; letter-spacing:.2em; text-transform:uppercase;
-    font-weight:700; padding:5px 11px; border-radius:999px; margin-bottom:14px;
+    position:absolute; top:14px; z-index:3;
+    font-size:.64rem; letter-spacing:.2em; text-transform:uppercase;
+    font-weight:700; padding:6px 12px; border-radius:999px;
+    backdrop-filter:blur(6px); -webkit-backdrop-filter:blur(6px);
   }
-  .ba-tag.before{background:rgba(214,196,168,.08); color:var(--ivory-dim); border:1px solid var(--line-2);}
-  .ba-tag.after{background:rgba(182,138,78,.16); color:var(--brass-hi); border:1px solid rgba(182,138,78,.45);}
-  .ba-h{font-size:clamp(1.06rem,4.4vw,1.2rem); color:var(--ivory); font-weight:600; line-height:1.4; margin-bottom:13px;}
-  .ba-after .ba-h{color:#FBF6EA;}
-  .ba-list{list-style:none; display:grid; gap:8px;}
-  .ba-list li{position:relative; padding-left:18px; font-size:.9rem; line-height:1.6; color:var(--ivory-dim);}
-  .ba-list li::before{content:""; position:absolute; left:2px; top:9px; width:5px; height:5px; border-radius:50%; background:var(--brass-deep);}
-  .ba-after .ba-list li{color:var(--ivory);}
-  .ba-after .ba-list li::before{background:var(--brass-hi);}
+  .ba-tag.before{left:14px; background:rgba(20,15,9,.55); color:var(--ivory); border:1px solid var(--line-2);}
+  .ba-tag.after{right:14px; background:rgba(182,138,78,.34); color:#fff; border:1px solid rgba(214,174,110,.6);}
 
   .ba-handle{
     position:absolute; top:0; bottom:0; left:var(--x); transform:translateX(-50%);
@@ -364,6 +357,12 @@
     border-left:2px solid var(--brass); padding-left:16px;
   }
   .ba-hint{margin-top:12px; font-size:.78rem; letter-spacing:.08em; color:var(--muted); text-align:center;}
+
+  /* ---------------- naver place proof figure ---------------- */
+  .place-fig{margin:0 0 clamp(24px,5vw,32px); border:1px solid var(--line-2); border-radius:var(--r); overflow:hidden; background:#1b140d;}
+  .place-fig img{width:100%; height:auto; display:block;}
+  .place-fig figcaption{padding:15px clamp(16px,4vw,20px); font-size:.92rem; line-height:1.65; color:var(--ivory-dim); border-top:1px solid var(--line-2);}
+  .place-fig figcaption b{color:var(--ivory); font-weight:500;}
 
   /* ---------------- soft statement (고급화 ≠ 기준) ---------------- */
   .statement{padding:clamp(58px,11vw,90px) 0;}
@@ -655,6 +654,19 @@
   </div>
 </section>
 
+<!-- =================== IMAGE BREAK — 남부터미널 (운영 증거) =================== -->
+<section class="shot">
+  <div class="shot-img r">
+    <img src="coffee829-nambu.jpg" alt="커피829 남부터미널점 — 9년 운영 매장" loading="lazy" />
+  </div>
+  <div class="shot-cap">
+    <div class="wrap">
+      <span class="lbl">9 Years · 남부터미널</span>
+      <p>남부터미널점 9년, 교대 15년. 이미 운영으로 증명된 브랜드입니다.</p>
+    </div>
+  </div>
+</section>
+
 <!-- =================== CH 02 — SURFACE GAP =================== -->
 <section class="chapter" id="gap">
   <div class="wrap">
@@ -698,40 +710,15 @@
     <div class="ba r d1">
       <p class="mini-kicker" style="margin-bottom:18px;">First Impression</p>
       <div class="ba-frame" id="baFrame">
-        <!-- sizer (invisible, sets height = 더 긴 쪽) -->
-        <div class="ba-sizer" aria-hidden="true">
-          <span class="ba-tag after">After · 정리 후</span>
-          <h4 class="ba-h">맛으로 다시 찾는 데일리 로스터리</h4>
-          <ul class="ba-list">
-            <li>2012년 8월 29일 시작한 브랜드</li>
-            <li>교대 15년, 3개 직영의 운영력</li>
-            <li>대표 직접 로스팅</li>
-            <li>서초점은 다음 브랜드 기준점</li>
-            <li>매일 마시는 커피에 15년의 기준</li>
-          </ul>
-        </div>
-        <!-- before (base) -->
+        <!-- before (base layer, full width) -->
         <div class="ba-pane ba-before">
+          <img src="coffee829-gyodae-before.jpg" alt="커피829 교대본점 — 정리 전 첫인상" draggable="false" />
           <span class="ba-tag before">Before · 지금</span>
-          <h4 class="ba-h">근처라서 가는 카페</h4>
-          <ul class="ba-list">
-            <li>중저가형 테이크아웃 이미지</li>
-            <li>가격과 접근성이 먼저 보임</li>
-            <li>829의 의미가 잘 보이지 않음</li>
-            <li>로스팅 기준이 첫인상에서 덜 읽힘</li>
-          </ul>
         </div>
-        <!-- after (clipped) -->
+        <!-- after (overlay, clipped from the left by --x) -->
         <div class="ba-pane ba-after" id="baAfter">
+          <img src="coffee829-gyodae-after.jpg" alt="커피829 교대본점 — 정리 후 첫인상" draggable="false" />
           <span class="ba-tag after">After · 정리 후</span>
-          <h4 class="ba-h">맛으로 다시 찾는 데일리 로스터리</h4>
-          <ul class="ba-list">
-            <li>2012년 8월 29일 시작한 브랜드</li>
-            <li>교대 15년, 3개 직영의 운영력</li>
-            <li>대표 직접 로스팅</li>
-            <li>서초점은 다음 브랜드 기준점</li>
-            <li>매일 마시는 커피에 15년의 기준</li>
-          </ul>
         </div>
         <button class="ba-handle" id="baHandle" type="button" role="slider"
           aria-label="Before와 After 비교 슬라이더" aria-valuemin="0" aria-valuemax="100" aria-valuenow="50">
@@ -760,7 +747,7 @@
 <!-- =================== IMAGE BREAK — ROASTING =================== -->
 <section class="shot">
   <div class="shot-img r">
-    <img src="coffee829roasting.jpg" alt="대표가 직접 로스팅하는 커피829 로스팅 랩" loading="lazy" />
+    <img src="coffee829-roasting.jpg" alt="대표가 직접 로스팅하는 커피829 로스팅 랩" loading="lazy" />
   </div>
   <div class="shot-cap">
     <div class="wrap">
@@ -808,7 +795,7 @@
 <!-- =================== IMAGE BREAK — SEOCHO =================== -->
 <section class="shot">
   <div class="shot-img r">
-    <img src="coffee829seocho.jpg" alt="커피829 서초점 — 거리 위의 매장 전경" loading="lazy" />
+    <img src="coffee829-seocho.jpg" alt="커피829 서초점 — 거리 위의 매장 전경" loading="lazy" />
   </div>
   <div class="shot-cap">
     <div class="wrap">
@@ -857,6 +844,11 @@
         <p class="mini-kicker">Search · GEO · AI</p>
         <h2 class="ch-title" style="font-size:clamp(1.34rem,5.2vw,1.7rem);">검색과 AI도, 커피829를<br>어떻게 읽을지 정리해야 합니다.</h2>
       </div>
+
+      <figure class="place-fig r d1">
+        <img src="coffee829-naverplace.png" alt="커피829 네이버 플레이스 — 지도·검색에 이미 존재하는 브랜드" loading="lazy" />
+        <figcaption>이미 지도·검색에 <b>존재하는 브랜드</b>입니다. 없는 걸 새로 만드는 게 아니라, 누가 검색하든 같은 한 문장으로 읽히도록 정리하는 일입니다.</figcaption>
+      </figure>
 
       <div class="stack">
         <div class="dcard r d1">
@@ -929,7 +921,7 @@
 <!-- =================== IMAGE BREAK — DIAGNOSTIC =================== -->
 <section class="shot">
   <div class="shot-img r">
-    <img src="coffee829diagnostic.jpg" alt="커피829 진단 점검 데스크 — 노트북, 노트, 커피" loading="lazy" />
+    <img src="coffee829-diagnostic.jpg" alt="커피829 진단 점검 데스크 — 노트북, 노트, 커피" loading="lazy" />
   </div>
   <div class="shot-cap">
     <div class="wrap">
