@@ -463,14 +463,14 @@
   .pills{display:grid; gap:10px;}
   .pill{display:block; cursor:pointer;}
   .pill input{position:absolute; opacity:0; width:0; height:0;}
-  .pill span{
+  .pill > span{
     display:flex; align-items:center; gap:12px;
     padding:13px 16px; border-radius:12px;
     border:1px solid var(--line-2); background:rgba(214,196,168,.03);
     font-size:.94rem; color:var(--ivory-dim); line-height:1.5;
     transition:border-color .25s, background .25s, color .25s;
   }
-  .pill span::before{
+  .pill > span::before{
     content:""; flex:0 0 auto; width:19px; height:19px; border-radius:6px;
     border:1.5px solid var(--muted); background:transparent;
     transition:all .25s var(--ease); position:relative;
